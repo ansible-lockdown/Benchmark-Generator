@@ -1,6 +1,6 @@
 # XCCDF Benchmark Generator
 
-Developed by Refactr in partnership with Mindpoint Group. For more, visit https://refactr.it
+Developed by Refactr in partnership with MindPoint Group. For more, visit https://refactr.it
 
 Generates complex output from an XCCDF file. Used to generate initial project files for automation tools in various formats.
 
