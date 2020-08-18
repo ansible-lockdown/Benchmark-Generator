@@ -1,0 +1,621 @@
+---
+- name: "HIGH | V-71849 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the file permissions, ownership, and group membership of system files and commands match the vendor values."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-71849
+    - audit
+
+- name: "HIGH | V-71849 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the file permissions, ownership, and group membership of system files and commands match the vendor values."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-71849
+    - patch
+
+- name: "HIGH | V-71855 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the cryptographic hash of system files and commands matches vendor values."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-71855
+    - audit
+
+- name: "HIGH | V-71855 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the cryptographic hash of system files and commands matches vendor values."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-71855
+    - patch
+
+- name: "HIGH | V-71937 | AUDIT | The Red Hat Enterprise Linux operating system must not have accounts configured with blank or null passwords."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-71937
+    - audit
+
+- name: "HIGH | V-71937 | PATCH | The Red Hat Enterprise Linux operating system must not have accounts configured with blank or null passwords."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-71937
+    - patch
+
+- name: "HIGH | V-71939 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not allow authentication using an empty password."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-71939
+    - audit
+
+- name: "HIGH | V-71939 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not allow authentication using an empty password."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-71939
+    - patch
+
+- name: "HIGH | V-71953 | AUDIT | The Red Hat Enterprise Linux operating system must not allow an unattended or automatic logon to the system via a graphical user interface."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-71953
+    - audit
+
+- name: "HIGH | V-71953 | PATCH | The Red Hat Enterprise Linux operating system must not allow an unattended or automatic logon to the system via a graphical user interface."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-71953
+    - patch
+
+- name: "HIGH | V-71955 | AUDIT | The Red Hat Enterprise Linux operating system must not allow an unrestricted logon to the system."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-71955
+    - audit
+
+- name: "HIGH | V-71955 | PATCH | The Red Hat Enterprise Linux operating system must not allow an unrestricted logon to the system."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-71955
+    - patch
+
+- name: "HIGH | V-71961 | AUDIT | Red Hat Enterprise Linux operating systems prior to version 7.2 with a Basic Input/Output System (BIOS) must require authentication upon booting into single-user and maintenance modes."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-71961
+    - audit
+
+- name: "HIGH | V-71961 | PATCH | Red Hat Enterprise Linux operating systems prior to version 7.2 with a Basic Input/Output System (BIOS) must require authentication upon booting into single-user and maintenance modes."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-71961
+    - patch
+
+- name: "HIGH | V-71963 | AUDIT | Red Hat Enterprise Linux operating systems prior to version 7.2 using Unified Extensible Firmware Interface (UEFI) must require authentication upon booting into single-user and maintenance modes."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-71963
+    - audit
+
+- name: "HIGH | V-71963 | PATCH | Red Hat Enterprise Linux operating systems prior to version 7.2 using Unified Extensible Firmware Interface (UEFI) must require authentication upon booting into single-user and maintenance modes."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-71963
+    - patch
+
+- name: "HIGH | V-71967 | AUDIT | The Red Hat Enterprise Linux operating system must not have the rsh-server package installed."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-71967
+    - audit
+
+- name: "HIGH | V-71967 | PATCH | The Red Hat Enterprise Linux operating system must not have the rsh-server package installed."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-71967
+    - patch
+
+- name: "HIGH | V-71969 | AUDIT | The Red Hat Enterprise Linux operating system must not have the ypserv package installed."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-71969
+    - audit
+
+- name: "HIGH | V-71969 | PATCH | The Red Hat Enterprise Linux operating system must not have the ypserv package installed."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-71969
+    - patch
+
+- name: "HIGH | V-71977 | AUDIT | The Red Hat Enterprise Linux operating system must prevent the installation of software, patches, service packs, device drivers, or operating system components from a repository without verification they have been digitally signed using a certificate that is issued by a Certificate Authority (CA) that is recognized and approved by the organization."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-71977
+    - audit
+
+- name: "HIGH | V-71977 | PATCH | The Red Hat Enterprise Linux operating system must prevent the installation of software, patches, service packs, device drivers, or operating system components from a repository without verification they have been digitally signed using a certificate that is issued by a Certificate Authority (CA) that is recognized and approved by the organization."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-71977
+    - patch
+
+- name: "HIGH | V-71979 | AUDIT | The Red Hat Enterprise Linux operating system must prevent the installation of software, patches, service packs, device drivers, or operating system components of local packages without verification they have been digitally signed using a certificate that is issued by a Certificate Authority (CA) that is recognized and approved by the organization."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-71979
+    - audit
+
+- name: "HIGH | V-71979 | PATCH | The Red Hat Enterprise Linux operating system must prevent the installation of software, patches, service packs, device drivers, or operating system components of local packages without verification they have been digitally signed using a certificate that is issued by a Certificate Authority (CA) that is recognized and approved by the organization."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-71979
+    - patch
+
+- name: "HIGH | V-71989 | AUDIT | The Red Hat Enterprise Linux operating system must enable SELinux."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-71989
+    - audit
+
+- name: "HIGH | V-71989 | PATCH | The Red Hat Enterprise Linux operating system must enable SELinux."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-71989
+    - patch
+
+- name: "HIGH | V-71991 | AUDIT | The Red Hat Enterprise Linux operating system must enable the SELinux targeted policy."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-71991
+    - audit
+
+- name: "HIGH | V-71991 | PATCH | The Red Hat Enterprise Linux operating system must enable the SELinux targeted policy."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-71991
+    - patch
+
+- name: "HIGH | V-71993 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the x86 Ctrl-Alt-Delete key sequence is disabled on the command line."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-71993
+    - audit
+
+- name: "HIGH | V-71993 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the x86 Ctrl-Alt-Delete key sequence is disabled on the command line."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-71993
+    - patch
+
+- name: "HIGH | V-71997 | AUDIT | The Red Hat Enterprise Linux operating system must be a vendor supported release."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-71997
+    - audit
+
+- name: "HIGH | V-71997 | PATCH | The Red Hat Enterprise Linux operating system must be a vendor supported release."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-71997
+    - patch
+
+- name: "HIGH | V-72005 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the root account must be the only account having unrestricted access to the system."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-72005
+    - audit
+
+- name: "HIGH | V-72005 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the root account must be the only account having unrestricted access to the system."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-72005
+    - patch
+
+- name: "HIGH | V-72067 | AUDIT | The Red Hat Enterprise Linux operating system must implement NIST FIPS-validated cryptography for the following: to provision digital signatures, to generate cryptographic hashes, and to protect data requiring data-at-rest protections in accordance with applicable federal laws, Executive Orders, directives, policies, regulations, and standards."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-72067
+    - audit
+
+- name: "HIGH | V-72067 | PATCH | The Red Hat Enterprise Linux operating system must implement NIST FIPS-validated cryptography for the following: to provision digital signatures, to generate cryptographic hashes, and to protect data requiring data-at-rest protections in accordance with applicable federal laws, Executive Orders, directives, policies, regulations, and standards."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-72067
+    - patch
+
+- name: "HIGH | V-72077 | AUDIT | The Red Hat Enterprise Linux operating system must not have the telnet-server package installed."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-72077
+    - audit
+
+- name: "HIGH | V-72077 | PATCH | The Red Hat Enterprise Linux operating system must not have the telnet-server package installed."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-72077
+    - patch
+
+- name: "HIGH | V-72079 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that auditing is configured to produce records containing information to establish what type of events occurred, where the events occurred, the source of the events, and the outcome of the events. These audit records must also identify individual identities of group account users."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-72079
+    - audit
+
+- name: "HIGH | V-72079 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that auditing is configured to produce records containing information to establish what type of events occurred, where the events occurred, the source of the events, and the outcome of the events. These audit records must also identify individual identities of group account users."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-72079
+    - patch
+
+- name: "HIGH | V-72213 | AUDIT | The Red Hat Enterprise Linux operating system must use a virus scan program."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-72213
+    - audit
+
+- name: "HIGH | V-72213 | PATCH | The Red Hat Enterprise Linux operating system must use a virus scan program."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-72213
+    - patch
+
+- name: "HIGH | V-72251 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon is configured to only use the SSHv2 protocol."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-72251
+    - audit
+
+- name: "HIGH | V-72251 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon is configured to only use the SSHv2 protocol."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-72251
+    - patch
+
+- name: "HIGH | V-72277 | AUDIT | The Red Hat Enterprise Linux operating system must not contain .shosts files."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-72277
+    - audit
+
+- name: "HIGH | V-72277 | PATCH | The Red Hat Enterprise Linux operating system must not contain .shosts files."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-72277
+    - patch
+
+- name: "HIGH | V-72279 | AUDIT | The Red Hat Enterprise Linux operating system must not contain shosts.equiv files."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-72279
+    - audit
+
+- name: "HIGH | V-72279 | PATCH | The Red Hat Enterprise Linux operating system must not contain shosts.equiv files."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-72279
+    - patch
+
+- name: "HIGH | V-72299 | AUDIT | The Red Hat Enterprise Linux operating system must not have a File Transfer Protocol (FTP) server package installed unless needed."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-72299
+    - audit
+
+- name: "HIGH | V-72299 | PATCH | The Red Hat Enterprise Linux operating system must not have a File Transfer Protocol (FTP) server package installed unless needed."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-72299
+    - patch
+
+- name: "HIGH | V-72301 | AUDIT | The Red Hat Enterprise Linux operating system must not have the Trivial File Transfer Protocol (TFTP) server package installed if not required for operational support."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-72301
+    - audit
+
+- name: "HIGH | V-72301 | PATCH | The Red Hat Enterprise Linux operating system must not have the Trivial File Transfer Protocol (TFTP) server package installed if not required for operational support."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-72301
+    - patch
+
+- name: "HIGH | V-72303 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that remote X connections for interactive users are encrypted."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-72303
+    - audit
+
+- name: "HIGH | V-72303 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that remote X connections for interactive users are encrypted."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-72303
+    - patch
+
+- name: "HIGH | V-72313 | AUDIT | SNMP community strings on the Red Hat Enterprise Linux operating system must be changed from the default."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-72313
+    - audit
+
+- name: "HIGH | V-72313 | PATCH | SNMP community strings on the Red Hat Enterprise Linux operating system must be changed from the default."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-72313
+    - patch
+
+- name: "HIGH | V-81005 | AUDIT | Red Hat Enterprise Linux operating systems version 7.2 or newer with a Basic Input/Output System (BIOS) must require authentication upon booting into single-user and maintenance modes."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-81005
+    - audit
+
+- name: "HIGH | V-81005 | PATCH | Red Hat Enterprise Linux operating systems version 7.2 or newer with a Basic Input/Output System (BIOS) must require authentication upon booting into single-user and maintenance modes."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-81005
+    - patch
+
+- name: "HIGH | V-81007 | AUDIT | Red Hat Enterprise Linux operating systems version 7.2 or newer using Unified Extensible Firmware Interface (UEFI) must require authentication upon booting into single-user and maintenance modes."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-81007
+    - audit
+
+- name: "HIGH | V-81007 | PATCH | Red Hat Enterprise Linux operating systems version 7.2 or newer using Unified Extensible Firmware Interface (UEFI) must require authentication upon booting into single-user and maintenance modes."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-81007
+    - patch
+
+- name: "HIGH | V-94843 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the x86 Ctrl-Alt-Delete key sequence is disabled in the GUI."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat1
+    - high
+    - V-94843
+    - audit
+
+- name: "HIGH | V-94843 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the x86 Ctrl-Alt-Delete key sequence is disabled in the GUI."
+  command: true
+  tags:
+    - cat1
+    - high
+    - V-94843
+    - patch
+

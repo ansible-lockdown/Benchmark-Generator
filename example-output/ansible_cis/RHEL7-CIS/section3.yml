@@ -1,0 +1,561 @@
+---
+- name: "SCORED | 3.1.1 | AUDIT | Ensure IP forwarding is disabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.1.1
+    - audit
+
+- name: "SCORED | 3.1.1 | PATCH | Ensure IP forwarding is disabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.1.1
+    - patch
+
+- name: "SCORED | 3.1.2 | AUDIT | Ensure packet redirect sending is disabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.1.2
+    - audit
+
+- name: "SCORED | 3.1.2 | PATCH | Ensure packet redirect sending is disabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.1.2
+    - patch
+
+- name: "SCORED | 3.2.1 | AUDIT | Ensure source routed packets are not accepted"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.2.1
+    - audit
+
+- name: "SCORED | 3.2.1 | PATCH | Ensure source routed packets are not accepted"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.2.1
+    - patch
+
+- name: "SCORED | 3.2.2 | AUDIT | Ensure ICMP redirects are not accepted"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.2.2
+    - audit
+
+- name: "SCORED | 3.2.2 | PATCH | Ensure ICMP redirects are not accepted"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.2.2
+    - patch
+
+- name: "SCORED | 3.2.3 | AUDIT | Ensure secure ICMP redirects are not accepted"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.2.3
+    - audit
+
+- name: "SCORED | 3.2.3 | PATCH | Ensure secure ICMP redirects are not accepted"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.2.3
+    - patch
+
+- name: "SCORED | 3.2.4 | AUDIT | Ensure suspicious packets are logged"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.2.4
+    - audit
+
+- name: "SCORED | 3.2.4 | PATCH | Ensure suspicious packets are logged"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.2.4
+    - patch
+
+- name: "SCORED | 3.2.5 | AUDIT | Ensure broadcast ICMP requests are ignored"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.2.5
+    - audit
+
+- name: "SCORED | 3.2.5 | PATCH | Ensure broadcast ICMP requests are ignored"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.2.5
+    - patch
+
+- name: "SCORED | 3.2.6 | AUDIT | Ensure bogus ICMP responses are ignored"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.2.6
+    - audit
+
+- name: "SCORED | 3.2.6 | PATCH | Ensure bogus ICMP responses are ignored"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.2.6
+    - patch
+
+- name: "SCORED | 3.2.7 | AUDIT | Ensure Reverse Path Filtering is enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.2.7
+    - audit
+
+- name: "SCORED | 3.2.7 | PATCH | Ensure Reverse Path Filtering is enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.2.7
+    - patch
+
+- name: "SCORED | 3.2.8 | AUDIT | Ensure TCP SYN Cookies is enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.2.8
+    - audit
+
+- name: "SCORED | 3.2.8 | PATCH | Ensure TCP SYN Cookies is enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.2.8
+    - patch
+
+- name: "SCORED | 3.3.1 | AUDIT | Ensure IPv6 router advertisements are not accepted"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.3.1
+    - audit
+
+- name: "SCORED | 3.3.1 | PATCH | Ensure IPv6 router advertisements are not accepted"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.3.1
+    - patch
+
+- name: "SCORED | 3.3.2 | AUDIT | Ensure IPv6 redirects are not accepted"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.3.2
+    - audit
+
+- name: "SCORED | 3.3.2 | PATCH | Ensure IPv6 redirects are not accepted"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.3.2
+    - patch
+
+- name: "SCORED | 3.3.3 | AUDIT | Ensure IPv6 is disabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.3.3
+    - audit
+
+- name: "SCORED | 3.3.3 | PATCH | Ensure IPv6 is disabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.3.3
+    - patch
+
+- name: "SCORED | 3.4.1 | AUDIT | Ensure TCP Wrappers is installed"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.4.1
+    - audit
+
+- name: "SCORED | 3.4.1 | PATCH | Ensure TCP Wrappers is installed"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.4.1
+    - patch
+
+- name: "SCORED | 3.4.2 | AUDIT | Ensure etchosts.allow is configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.4.2
+    - audit
+
+- name: "SCORED | 3.4.2 | PATCH | Ensure etchosts.allow is configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.4.2
+    - patch
+
+- name: "SCORED | 3.4.3 | AUDIT | Ensure etchosts.deny is configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.4.3
+    - audit
+
+- name: "SCORED | 3.4.3 | PATCH | Ensure etchosts.deny is configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.4.3
+    - patch
+
+- name: "SCORED | 3.4.4 | AUDIT | Ensure permissions on etchosts.allow are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.4.4
+    - audit
+
+- name: "SCORED | 3.4.4 | PATCH | Ensure permissions on etchosts.allow are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.4.4
+    - patch
+
+- name: "SCORED | 3.4.5 | AUDIT | Ensure permissions on etchosts.deny are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.4.5
+    - audit
+
+- name: "SCORED | 3.4.5 | PATCH | Ensure permissions on etchosts.deny are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.4.5
+    - patch
+
+- name: "SCORED | 3.5.1 | AUDIT | Ensure DCCP is disabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.5.1
+    - audit
+
+- name: "SCORED | 3.5.1 | PATCH | Ensure DCCP is disabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.5.1
+    - patch
+
+- name: "SCORED | 3.5.2 | AUDIT | Ensure SCTP is disabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.5.2
+    - audit
+
+- name: "SCORED | 3.5.2 | PATCH | Ensure SCTP is disabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.5.2
+    - patch
+
+- name: "SCORED | 3.5.3 | AUDIT | Ensure RDS is disabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.5.3
+    - audit
+
+- name: "SCORED | 3.5.3 | PATCH | Ensure RDS is disabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.5.3
+    - patch
+
+- name: "SCORED | 3.5.4 | AUDIT | Ensure TIPC is disabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.5.4
+    - audit
+
+- name: "SCORED | 3.5.4 | PATCH | Ensure TIPC is disabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.5.4
+    - patch
+
+- name: "SCORED | 3.6.1 | AUDIT | Ensure iptables is installed"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.6.1
+    - audit
+
+- name: "SCORED | 3.6.1 | PATCH | Ensure iptables is installed"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.6.1
+    - patch
+
+- name: "SCORED | 3.6.2 | AUDIT | Ensure default deny firewall policy"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.6.2
+    - audit
+
+- name: "SCORED | 3.6.2 | PATCH | Ensure default deny firewall policy"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.6.2
+    - patch
+
+- name: "SCORED | 3.6.3 | AUDIT | Ensure loopback traffic is configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.6.3
+    - audit
+
+- name: "SCORED | 3.6.3 | PATCH | Ensure loopback traffic is configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.6.3
+    - patch
+
+- name: "SCORED | 3.6.4 | AUDIT | Ensure outbound and established connections are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.6.4
+    - audit
+
+- name: "SCORED | 3.6.4 | PATCH | Ensure outbound and established connections are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.6.4
+    - patch
+
+- name: "SCORED | 3.6.5 | AUDIT | Ensure firewall rules exist for all open ports"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.6.5
+    - audit
+
+- name: "SCORED | 3.6.5 | PATCH | Ensure firewall rules exist for all open ports"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.6.5
+    - patch
+
+- name: "SCORED | 3.7 | AUDIT | Ensure wireless interfaces are disabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_3.7
+    - audit
+
+- name: "SCORED | 3.7 | PATCH | Ensure wireless interfaces are disabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_3.7
+    - patch
+

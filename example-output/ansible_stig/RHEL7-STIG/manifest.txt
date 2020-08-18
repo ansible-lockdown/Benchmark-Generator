@@ -1,0 +1,253 @@
+
+high
+V-71849 - high - The Red Hat Enterprise Linux operating system must be configured so that the file permissions, ownership, and group membership of system files and commands match the vendor values.
+V-71855 - high - The Red Hat Enterprise Linux operating system must be configured so that the cryptographic hash of system files and commands matches vendor values.
+V-71937 - high - The Red Hat Enterprise Linux operating system must not have accounts configured with blank or null passwords.
+V-71939 - high - The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not allow authentication using an empty password.
+V-71953 - high - The Red Hat Enterprise Linux operating system must not allow an unattended or automatic logon to the system via a graphical user interface.
+V-71955 - high - The Red Hat Enterprise Linux operating system must not allow an unrestricted logon to the system.
+V-71961 - high - Red Hat Enterprise Linux operating systems prior to version 7.2 with a Basic Input/Output System (BIOS) must require authentication upon booting into single-user and maintenance modes.
+V-71963 - high - Red Hat Enterprise Linux operating systems prior to version 7.2 using Unified Extensible Firmware Interface (UEFI) must require authentication upon booting into single-user and maintenance modes.
+V-71967 - high - The Red Hat Enterprise Linux operating system must not have the rsh-server package installed.
+V-71969 - high - The Red Hat Enterprise Linux operating system must not have the ypserv package installed.
+V-71977 - high - The Red Hat Enterprise Linux operating system must prevent the installation of software, patches, service packs, device drivers, or operating system components from a repository without verification they have been digitally signed using a certificate that is issued by a Certificate Authority (CA) that is recognized and approved by the organization.
+V-71979 - high - The Red Hat Enterprise Linux operating system must prevent the installation of software, patches, service packs, device drivers, or operating system components of local packages without verification they have been digitally signed using a certificate that is issued by a Certificate Authority (CA) that is recognized and approved by the organization.
+V-71989 - high - The Red Hat Enterprise Linux operating system must enable SELinux.
+V-71991 - high - The Red Hat Enterprise Linux operating system must enable the SELinux targeted policy.
+V-71993 - high - The Red Hat Enterprise Linux operating system must be configured so that the x86 Ctrl-Alt-Delete key sequence is disabled on the command line.
+V-71997 - high - The Red Hat Enterprise Linux operating system must be a vendor supported release.
+V-72005 - high - The Red Hat Enterprise Linux operating system must be configured so that the root account must be the only account having unrestricted access to the system.
+V-72067 - high - The Red Hat Enterprise Linux operating system must implement NIST FIPS-validated cryptography for the following: to provision digital signatures, to generate cryptographic hashes, and to protect data requiring data-at-rest protections in accordance with applicable federal laws, Executive Orders, directives, policies, regulations, and standards.
+V-72077 - high - The Red Hat Enterprise Linux operating system must not have the telnet-server package installed.
+V-72079 - high - The Red Hat Enterprise Linux operating system must be configured so that auditing is configured to produce records containing information to establish what type of events occurred, where the events occurred, the source of the events, and the outcome of the events. These audit records must also identify individual identities of group account users.
+V-72213 - high - The Red Hat Enterprise Linux operating system must use a virus scan program.
+V-72251 - high - The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon is configured to only use the SSHv2 protocol.
+V-72277 - high - The Red Hat Enterprise Linux operating system must not contain .shosts files.
+V-72279 - high - The Red Hat Enterprise Linux operating system must not contain shosts.equiv files.
+V-72299 - high - The Red Hat Enterprise Linux operating system must not have a File Transfer Protocol (FTP) server package installed unless needed.
+V-72301 - high - The Red Hat Enterprise Linux operating system must not have the Trivial File Transfer Protocol (TFTP) server package installed if not required for operational support.
+V-72303 - high - The Red Hat Enterprise Linux operating system must be configured so that remote X connections for interactive users are encrypted.
+V-72313 - high - SNMP community strings on the Red Hat Enterprise Linux operating system must be changed from the default.
+V-81005 - high - Red Hat Enterprise Linux operating systems version 7.2 or newer with a Basic Input/Output System (BIOS) must require authentication upon booting into single-user and maintenance modes.
+V-81007 - high - Red Hat Enterprise Linux operating systems version 7.2 or newer using Unified Extensible Firmware Interface (UEFI) must require authentication upon booting into single-user and maintenance modes.
+V-94843 - high - The Red Hat Enterprise Linux operating system must be configured so that the x86 Ctrl-Alt-Delete key sequence is disabled in the GUI.
+
+medium
+V-71859 - medium - The Red Hat Enterprise Linux operating system must display the Standard Mandatory DoD Notice and Consent Banner before granting local or remote access to the system via a graphical user logon.
+V-71861 - medium - The Red Hat Enterprise Linux operating system must display the approved Standard Mandatory DoD Notice and Consent Banner before granting local or remote access to the system via a graphical user logon.
+V-71863 - medium - The Red Hat Enterprise Linux operating system must display the Standard Mandatory DoD Notice and Consent Banner before granting local or remote access to the system via a command line user logon.
+V-71891 - medium - The Red Hat Enterprise Linux operating system must enable a user session lock until that user re-establishes access using established identification and authentication procedures.
+V-71893 - medium - The Red Hat Enterprise Linux operating system must initiate a screensaver after a 15-minute period of inactivity for graphical user interfaces.
+V-71897 - medium - The Red Hat Enterprise Linux operating system must have the screen package installed.
+V-71899 - medium - The Red Hat Enterprise Linux operating system must initiate a session lock for the screensaver after a period of inactivity for graphical user interfaces.
+V-71901 - medium - The Red Hat Enterprise Linux operating system must initiate a session lock for graphical user interfaces when the screensaver is activated.
+V-71903 - medium - The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed or new passwords are established, the new password must contain at least one upper-case character.
+V-71905 - medium - The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed or new passwords are established, the new password must contain at least one lower-case character.
+V-71907 - medium - The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed or new passwords are assigned, the new password must contain at least one numeric character.
+V-71909 - medium - The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed or new passwords are established, the new password must contain at least one special character.
+V-71911 - medium - The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed a minimum of eight of the total number of characters must be changed.
+V-71913 - medium - The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed a minimum of four character classes must be changed.
+V-71915 - medium - The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed the number of repeating consecutive characters must not be more than three characters.
+V-71917 - medium - The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed the number of repeating characters of the same character class must not be more than four characters.
+V-71919 - medium - The Red Hat Enterprise Linux operating system must be configured so that the PAM system service is configured to store only encrypted representations of passwords.
+V-71921 - medium - The Red Hat Enterprise Linux operating system must be configured to use the shadow file to store only encrypted representations of passwords.
+V-71923 - medium - The Red Hat Enterprise Linux operating system must be configured so that user and group account administration utilities are configured to store only encrypted representations of passwords.
+V-71925 - medium - The Red Hat Enterprise Linux operating system must be configured so that passwords for new users are restricted to a 24 hours/1 day minimum lifetime.
+V-71927 - medium - The Red Hat Enterprise Linux operating system must be configured so that passwords are restricted to a 24 hours/1 day minimum lifetime.
+V-71929 - medium - The Red Hat Enterprise Linux operating system must be configured so that passwords for new users are restricted to a 60-day maximum lifetime.
+V-71931 - medium - The Red Hat Enterprise Linux operating system must be configured so that existing passwords are restricted to a 60-day maximum lifetime.
+V-71933 - medium - The Red Hat Enterprise Linux operating system must be configured so that passwords are prohibited from reuse for a minimum of five generations.
+V-71935 - medium - The Red Hat Enterprise Linux operating system must be configured so that passwords are a minimum of 15 characters in length.
+V-71941 - medium - The Red Hat Enterprise Linux operating system must disable account identifiers (individuals, groups, roles, and devices) if the password expires.
+V-71943 - medium - The Red Hat Enterprise Linux operating system must be configured to lock accounts for a minimum of 15 minutes after three unsuccessful logon attempts within a 15-minute timeframe.
+V-71945 - medium - The Red Hat Enterprise Linux operating system must lock the associated account after three unsuccessful root logon attempts are made within a 15-minute period.
+V-71947 - medium - The Red Hat Enterprise Linux operating system must be configured so that users must provide a password for privilege escalation.
+V-71949 - medium - The Red Hat Enterprise Linux operating system must be configured so that users must re-authenticate for privilege escalation.
+V-71951 - medium - The Red Hat Enterprise Linux operating system must be configured so that the delay between logon prompts following a failed console logon attempt is at least four seconds.
+V-71957 - medium - The Red Hat Enterprise Linux operating system must not allow users to override SSH environment variables.
+V-71959 - medium - The Red Hat Enterprise Linux operating system must not allow a non-certificate trusted host SSH logon to the system.
+V-71965 - medium - The Red Hat Enterprise Linux operating system must uniquely identify and must authenticate organizational users (or processes acting on behalf of organizational users) using multifactor authentication.
+V-71971 - medium - The Red Hat Enterprise Linux operating system must prevent non-privileged users from executing privileged functions to include disabling, circumventing, or altering implemented security safeguards/countermeasures.
+V-71973 - medium - The Red Hat Enterprise Linux operating system must be configured so that a file integrity tool verifies the baseline operating system configuration at least weekly.
+V-71975 - medium - The Red Hat Enterprise Linux operating system must be configured so that designated personnel are notified if baseline configurations are changed in an unauthorized manner.
+V-71983 - medium - The Red Hat Enterprise Linux operating system must be configured to disable USB mass storage.
+V-71985 - medium - The Red Hat Enterprise Linux operating system must disable the file system automounter unless required.
+V-71995 - medium - The Red Hat Enterprise Linux operating system must define default permissions for all authenticated users in such a way that the user can only read and modify their own files.
+V-71999 - medium - The Red Hat Enterprise Linux operating system security patches and updates must be installed and up to date.
+V-72001 - medium - The Red Hat Enterprise Linux operating system must not have unnecessary accounts.
+V-72007 - medium - The Red Hat Enterprise Linux operating system must be configured so that all files and directories have a valid owner.
+V-72009 - medium - The Red Hat Enterprise Linux operating system must be configured so that all files and directories have a valid group owner.
+V-72011 - medium - The Red Hat Enterprise Linux operating system must be configured so that all local interactive users have a home directory assigned in the /etc/passwd file.
+V-72013 - medium - The Red Hat Enterprise Linux operating system must be configured so that all local interactive user accounts, upon creation, are assigned a home directory.
+V-72015 - medium - The Red Hat Enterprise Linux operating system must be configured so that all local interactive user home directories are defined in the /etc/passwd file.
+V-72017 - medium - The Red Hat Enterprise Linux operating system must be configured so that all local interactive user home directories have mode 0750 or less permissive.
+V-72019 - medium - The Red Hat Enterprise Linux operating system must be configured so that all local interactive user home directories are owned by their respective users.
+V-72021 - medium - The Red Hat Enterprise Linux operating system must be configured so that all local interactive user home directories are group-owned by the home directory owners primary group.
+V-72023 - medium - The Red Hat Enterprise Linux operating system must be configured so that all files and directories contained in local interactive user home directories are owned by the owner of the home directory.
+V-72025 - medium - The Red Hat Enterprise Linux operating system must be configured so that all files and directories contained in local interactive user home directories are group-owned by a group of which the home directory owner is a member.
+V-72027 - medium - The Red Hat Enterprise Linux operating system must be configured so that all files and directories contained in local interactive user home directories have a mode of 0750 or less permissive.
+V-72029 - medium - The Red Hat Enterprise Linux operating system must be configured so that all local initialization files for interactive users are owned by the home directory user or root.
+V-72031 - medium - The Red Hat Enterprise Linux operating system must be configured so that all local initialization files for local interactive users are be group-owned by the users primary group or root.
+V-72033 - medium - The Red Hat Enterprise Linux operating system must be configured so that all local initialization files have mode 0740 or less permissive.
+V-72035 - medium - The Red Hat Enterprise Linux operating system must be configured so that all local interactive user initialization files executable search paths contain only paths that resolve to the users home directory.
+V-72037 - medium - The Red Hat Enterprise Linux operating system must be configured so that local initialization files do not execute world-writable programs.
+V-72039 - medium - The Red Hat Enterprise Linux operating system must be configured so that all system device files are correctly labeled to prevent unauthorized modification.
+V-72041 - medium - The Red Hat Enterprise Linux operating system must be configured so that file systems containing user home directories are mounted to prevent files with the setuid and setgid bit set from being executed.
+V-72043 - medium - The Red Hat Enterprise Linux operating system must prevent files with the setuid and setgid bit set from being executed on file systems that are used with removable media.
+V-72045 - medium - The Red Hat Enterprise Linux operating system must prevent files with the setuid and setgid bit set from being executed on file systems that are being imported via Network File System (NFS).
+V-72047 - medium - The Red Hat Enterprise Linux operating system must be configured so that all world-writable directories are group-owned by root, sys, bin, or an application group.
+V-72049 - medium - The Red Hat Enterprise Linux operating system must set the umask value to 077 for all local interactive user accounts.
+V-72051 - medium - The Red Hat Enterprise Linux operating system must have cron logging implemented.
+V-72053 - medium - The Red Hat Enterprise Linux operating system must be configured so that the cron.allow file, if it exists, is owned by root.
+V-72055 - medium - The Red Hat Enterprise Linux operating system must be configured so that the cron.allow file, if it exists, is group-owned by root.
+V-72057 - medium - The Red Hat Enterprise Linux operating system must disable Kernel core dumps unless needed.
+V-72073 - medium - The Red Hat Enterprise Linux operating system must use a file integrity tool that is configured to use FIPS 140-2 approved cryptographic hashes for validating file contents and directories.
+V-72075 - medium - The Red Hat Enterprise Linux operating system must not allow removable media to be used as the boot loader unless approved.
+V-72081 - medium - The Red Hat Enterprise Linux operating system must shut down upon audit processing failure, unless availability is an overriding concern. If availability is a concern, the system must alert the designated staff (System Administrator [SA] and Information System Security Officer [ISSO] at a minimum) in the event of an audit processing failure.
+V-72083 - medium - The Red Hat Enterprise Linux operating system must off-load audit records onto a different system or media from the system being audited.
+V-72085 - medium - The Red Hat Enterprise Linux operating system must encrypt the transfer of audit records off-loaded onto a different system or media from the system being audited.
+V-72087 - medium - The Red Hat Enterprise Linux operating system must be configured so that the audit system takes appropriate action when the audit storage volume is full.
+V-72089 - medium - The Red Hat Enterprise Linux operating system must initiate an action to notify the System Administrator (SA) and Information System Security Officer ISSO, at a minimum, when allocated audit record storage volume reaches 75% of the repository maximum audit record storage capacity.
+V-72091 - medium - The Red Hat Enterprise Linux operating system must immediately notify the System Administrator (SA) and Information System Security Officer (ISSO) (at a minimum) via email when the threshold for the repository maximum audit record storage capacity is reached.
+V-72093 - medium - The Red Hat Enterprise Linux operating system must immediately notify the System Administrator (SA) and Information System Security Officer (ISSO) (at a minimum) when the threshold for the repository maximum audit record storage capacity is reached.
+V-72095 - medium - The Red Hat Enterprise Linux operating system must audit all executions of privileged functions.
+V-72097 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the chown syscall.
+V-72099 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the fchown syscall.
+V-72101 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the lchown syscall.
+V-72103 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the fchownat syscall.
+V-72105 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the chmod syscall.
+V-72107 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the fchmod syscall.
+V-72109 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the fchmodat syscall.
+V-72111 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the setxattr syscall.
+V-72113 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the fsetxattr syscall.
+V-72115 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the lsetxattr syscall.
+V-72117 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the removexattr syscall.
+V-72119 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the fremovexattr syscall.
+V-72121 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the lremovexattr syscall.
+V-72123 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the creat syscall.
+V-72125 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the open syscall.
+V-72127 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the openat syscall.
+V-72129 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the open_by_handle_at syscall.
+V-72131 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the truncate syscall.
+V-72133 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the ftruncate syscall.
+V-72135 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the semanage command.
+V-72137 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the setsebool command.
+V-72139 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the chcon command.
+V-72141 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the setfiles command.
+V-72145 - medium - The Red Hat Enterprise Linux operating system must generate audit records for all unsuccessful account access events.
+V-72147 - medium - The Red Hat Enterprise Linux operating system must generate audit records for all successful account access events.
+V-72149 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the passwd command.
+V-72151 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the unix_chkpwd command.
+V-72153 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the gpasswd command.
+V-72155 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the chage command.
+V-72157 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the userhelper command.
+V-72159 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the su command.
+V-72161 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the sudo command.
+V-72163 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the sudoers file and all files in the /etc/sudoers.d/ directory.
+V-72165 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the newgrp command.
+V-72167 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the chsh command.
+V-72171 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the mount command and syscall.
+V-72173 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the umount command.
+V-72175 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the postdrop command.
+V-72177 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the postqueue command.
+V-72179 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the ssh-keysign command.
+V-72183 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the crontab command.
+V-72185 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the pam_timestamp_check command.
+V-72187 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the init_module syscall.
+V-72189 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the delete_module syscall.
+V-72191 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the kmod command.
+V-72197 - medium - The Red Hat Enterprise Linux operating system must generate audit records for all account creations, modifications, disabling, and termination events that affect /etc/passwd.
+V-72199 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the rename syscall.
+V-72201 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the renameat syscall.
+V-72203 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the rmdir syscall.
+V-72205 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the unlink syscall.
+V-72207 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the unlinkat syscall.
+V-72209 - medium - The Red Hat Enterprise Linux operating system must send rsyslog output to a log aggregation server.
+V-72211 - medium - The Red Hat Enterprise Linux operating system must be configured so that the rsyslog daemon does not accept log messages from other servers unless the server is being used for log aggregation.
+V-72219 - medium - The Red Hat Enterprise Linux operating system must be configured to prohibit or restrict the use of functions, ports, protocols, and/or services, as defined in the Ports, Protocols, and Services Management Component Local Service Assessment (PPSM CLSA) and vulnerability assessments.
+V-72221 - medium - The Red Hat Enterprise Linux operating system must use a FIPS 140-2 approved cryptographic algorithm for SSH communications.
+V-72223 - medium - The Red Hat Enterprise Linux operating system must be configured so that all network connections associated with a communication session are terminated at the end of the session or after 10 minutes of inactivity from the user at a command prompt, except to fulfill documented and validated mission requirements.
+V-72225 - medium - The Red Hat Enterprise Linux operating system must display the Standard Mandatory DoD Notice and Consent Banner immediately prior to, or as part of, remote access logon prompts.
+V-72227 - medium - The Red Hat Enterprise Linux operating system must implement cryptography to protect the integrity of Lightweight Directory Access Protocol (LDAP) authentication communications.
+V-72229 - medium - The Red Hat Enterprise Linux operating system must implement cryptography to protect the integrity of Lightweight Directory Access Protocol (LDAP) communications.
+V-72231 - medium - The Red Hat Enterprise Linux operating system must implement cryptography to protect the integrity of Lightweight Directory Access Protocol (LDAP) communications.
+V-72233 - medium - The Red Hat Enterprise Linux operating system must be configured so that all networked systems have SSH installed.
+V-72235 - medium - The Red Hat Enterprise Linux operating system must be configured so that all networked systems use SSH for confidentiality and integrity of transmitted and received information as well as information during preparation for transmission.
+V-72237 - medium - The Red Hat Enterprise Linux operating system must be configured so that all network connections associated with SSH traffic are terminated at the end of the session or after 10 minutes of inactivity, except to fulfill documented and validated mission requirements.
+V-72239 - medium - The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not allow authentication using RSA rhosts authentication.
+V-72241 - medium - The Red Hat Enterprise Linux operating system must be configured so that all network connections associated with SSH traffic terminate after a period of inactivity.
+V-72243 - medium - The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not allow authentication using rhosts authentication.
+V-72245 - medium - The Red Hat Enterprise Linux operating system must display the date and time of the last successful account logon upon an SSH logon.
+V-72247 - medium - The Red Hat Enterprise Linux operating system must not permit direct logons to the root account using remote access via SSH.
+V-72249 - medium - The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not allow authentication using known hosts authentication.
+V-72253 - medium - The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon is configured to only use Message Authentication Codes (MACs) employing FIPS 140-2 approved cryptographic hash algorithms.
+V-72255 - medium - The Red Hat Enterprise Linux operating system must be configured so that the SSH public host key files have mode 0644 or less permissive.
+V-72257 - medium - The Red Hat Enterprise Linux operating system must be configured so that the SSH private host key files have mode 0640 or less permissive.
+V-72259 - medium - The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not permit Generic Security Service Application Program Interface (GSSAPI) authentication unless needed.
+V-72261 - medium - The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not permit Kerberos authentication unless needed.
+V-72263 - medium - The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon performs strict mode checking of home directory configuration files.
+V-72265 - medium - The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon uses privilege separation.
+V-72267 - medium - The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not allow compression or only allows compression after successful authentication.
+V-72269 - medium - The Red Hat Enterprise Linux operating system must, for networked systems, synchronize clocks with a server that is synchronized to one of the redundant United States Naval Observatory (USNO) time servers, a time server designated for the appropriate DoD network (NIPRNet/SIPRNet), and/or the Global Positioning System (GPS).
+V-72273 - medium - The Red Hat Enterprise Linux operating system must enable an application firewall, if available.
+V-72283 - medium - The Red Hat Enterprise Linux operating system must not forward Internet Protocol version 4 (IPv4) source-routed packets.
+V-72285 - medium - The Red Hat Enterprise Linux operating system must not forward Internet Protocol version 4 (IPv4) source-routed packets by default.
+V-72287 - medium - The Red Hat Enterprise Linux operating system must not respond to Internet Protocol version 4 (IPv4) Internet Control Message Protocol (ICMP) echoes sent to a broadcast address.
+V-72289 - medium - The Red Hat Enterprise Linux operating system must prevent Internet Protocol version 4 (IPv4) Internet Control Message Protocol (ICMP) redirect messages from being accepted.
+V-72291 - medium - The Red Hat Enterprise Linux operating system must not allow interfaces to perform Internet Protocol version 4 (IPv4) Internet Control Message Protocol (ICMP) redirects by default.
+V-72293 - medium - The Red Hat Enterprise Linux operating system must not send Internet Protocol version 4 (IPv4) Internet Control Message Protocol (ICMP) redirects.
+V-72295 - medium - Network interfaces configured on the Red Hat Enterprise Linux operating system must not be in promiscuous mode.
+V-72297 - medium - The Red Hat Enterprise Linux operating system must be configured to prevent unrestricted mail relaying.
+V-72305 - medium - The Red Hat Enterprise Linux operating system must be configured so that if the Trivial File Transfer Protocol (TFTP) server is required, the TFTP daemon is configured to operate in secure mode.
+V-72307 - medium - The Red Hat Enterprise Linux operating system must not have an X Windows display manager installed unless approved.
+V-72309 - medium - The Red Hat Enterprise Linux operating system must not be performing packet forwarding unless the system is a router.
+V-72311 - medium - The Red Hat Enterprise Linux operating system must be configured so that the Network File System (NFS) is configured to use RPCSEC_GSS.
+V-72315 - medium - The Red Hat Enterprise Linux operating system access control program must be configured to grant or deny system access to specific hosts and services.
+V-72317 - medium - The Red Hat Enterprise Linux operating system must not have unauthorized IP tunnels configured.
+V-72319 - medium - The Red Hat Enterprise Linux operating system must not forward IPv6 source-routed packets.
+V-72417 - medium - The Red Hat Enterprise Linux operating system must have the required packages for multifactor authentication installed.
+V-72427 - medium - The Red Hat Enterprise Linux operating system must implement multifactor authentication for access to privileged accounts via pluggable authentication modules (PAM).
+V-72433 - medium - The Red Hat Enterprise Linux operating system must implement certificate status checking for PKI authentication.
+V-73155 - medium - The Red Hat Enterprise Linux operating system must prevent a user from overriding the screensaver lock-delay setting for the graphical user interface.
+V-73157 - medium - The Red Hat Enterprise Linux operating system must prevent a user from overriding the session idle-delay setting for the graphical user interface.
+V-73159 - medium - The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed or new passwords are established, pwquality must be used.
+V-73161 - medium - The Red Hat Enterprise Linux operating system must prevent binary files from being executed on file systems that are being imported via Network File System (NFS).
+V-73163 - medium - The Red Hat Enterprise Linux operating system must be configured so that the audit system takes appropriate action when there is an error sending audit records to a remote system.
+V-73165 - medium - The Red Hat Enterprise Linux operating system must generate audit records for all account creations, modifications, disabling, and termination events that affect /etc/group.
+V-73167 - medium - The Red Hat Enterprise Linux operating system must generate audit records for all account creations, modifications, disabling, and termination events that affect /etc/gshadow.
+V-73171 - medium - The Red Hat Enterprise Linux operating system must generate audit records for all account creations, modifications, disabling, and termination events that affect /etc/shadow.
+V-73173 - medium - The Red Hat Enterprise Linux operating system must generate audit records for all account creations, modifications, disabling, and termination events that affect /etc/opasswd.
+V-73175 - medium - The Red Hat Enterprise Linux operating system must ignore Internet Protocol version 4 (IPv4) Internet Control Message Protocol (ICMP) redirect messages.
+V-73177 - medium - The Red Hat Enterprise Linux operating system must be configured so that all wireless network adapters are disabled.
+V-77819 - medium - The Red Hat Enterprise Linux operating system must uniquely identify and must authenticate users using multifactor authentication via a graphical user logon.
+V-77821 - medium - The Red Hat Enterprise Linux operating system must be configured so that the Datagram Congestion Control Protocol (DCCP) kernel module is disabled unless required.
+V-77823 - medium - The Red Hat Enterprise Linux operating system must require authentication upon booting into single-user and maintenance modes.
+V-77825 - medium - The Red Hat Enterprise Linux operating system must implement virtual address space randomization.
+V-78995 - medium - The Red Hat Enterprise Linux operating system must prevent a user from overriding the screensaver lock-enabled setting for the graphical user interface.
+V-78997 - medium - The Red Hat Enterprise Linux operating system must prevent a user from overriding the screensaver idle-activation-enabled setting for the graphical user interface.
+V-78999 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the create_module syscall.
+V-79001 - medium - The Red Hat Enterprise Linux operating system must audit all uses of the finit_module syscall.
+V-81003 - medium - The Red Hat Enterprise Linux operating system must be configured so that /etc/pam.d/passwd implements /etc/pam.d/system-auth when changing passwords.
+V-81015 - medium - The Red Hat Enterprise Linux operating system must be configured to use the au-remote plugin.
+V-81017 - medium - The Red Hat Enterprise Linux operating system must configure the au-remote plugin to off-load audit logs using the audisp-remote daemon.
+V-81019 - medium - The Red Hat Enterprise Linux operating system must take appropriate action when the audisp-remote buffer is full.
+V-81021 - medium - The Red Hat Enterprise Linux operating system must label all off-loaded audit logs before sending them to the central log server.
+V-92251 - medium - The Red Hat Enterprise Linux operating system must use a reverse-path filter for IPv4 network traffic when possible on all interfaces.
+V-92253 - medium - The Red Hat Enterprise Linux operating system must use a reverse-path filter for IPv4 network traffic when possible by default.
+V-92255 - medium - The Red Hat Enterprise Linux operating system must have a host-based intrusion detection tool installed.
+
+low
+V-71987 - low - The Red Hat Enterprise Linux operating system must remove all software components after updated versions have been installed.
+V-72003 - low - The Red Hat Enterprise Linux operating system must be configured so that all Group Identifiers (GIDs) referenced in the /etc/passwd file are defined in the /etc/group file.
+V-72059 - low - The Red Hat Enterprise Linux operating system must be configured so that a separate file system is used for user home directories (such as /home or an equivalent).
+V-72061 - low - The Red Hat Enterprise Linux operating system must use a separate file system for /var.
+V-72063 - low - The Red Hat Enterprise Linux operating system must use a separate file system for the system audit data path.
+V-72065 - low - The Red Hat Enterprise Linux operating system must use a separate file system for /tmp (or equivalent).
+V-72069 - low - The Red Hat Enterprise Linux operating system must be configured so that the file integrity tool is configured to verify Access Control Lists (ACLs).
+V-72071 - low - The Red Hat Enterprise Linux operating system must be configured so that the file integrity tool is configured to verify extended attributes.
+V-72217 - low - The Red Hat Enterprise Linux operating system must limit the number of concurrent sessions to 10 for all accounts and/or account types.
+V-72275 - low - The Red Hat Enterprise Linux operating system must display the date and time of the last successful account logon upon logon.
+V-72281 - low - For Red Hat Enterprise Linux operating systems using DNS resolution, at least two name servers must be configured.
+V-81009 - low - The Red Hat Enterprise Linux operating system must mount /dev/shm with the nodev option.
+V-81011 - low - The Red Hat Enterprise Linux operating system must mount /dev/shm with the nosuid option.
+V-81013 - low - The Red Hat Enterprise Linux operating system must mount /dev/shm with the noexec option.

@@ -1,0 +1,701 @@
+---
+- name: "SCORED | 2.1.1 | AUDIT | Ensure chargen services are not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.1.1
+    - audit
+
+- name: "SCORED | 2.1.1 | PATCH | Ensure chargen services are not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.1.1
+    - patch
+
+- name: "SCORED | 2.1.2 | AUDIT | Ensure daytime services are not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.1.2
+    - audit
+
+- name: "SCORED | 2.1.2 | PATCH | Ensure daytime services are not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.1.2
+    - patch
+
+- name: "SCORED | 2.1.3 | AUDIT | Ensure discard services are not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.1.3
+    - audit
+
+- name: "SCORED | 2.1.3 | PATCH | Ensure discard services are not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.1.3
+    - patch
+
+- name: "SCORED | 2.1.4 | AUDIT | Ensure echo services are not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.1.4
+    - audit
+
+- name: "SCORED | 2.1.4 | PATCH | Ensure echo services are not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.1.4
+    - patch
+
+- name: "SCORED | 2.1.5 | AUDIT | Ensure time services are not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.1.5
+    - audit
+
+- name: "SCORED | 2.1.5 | PATCH | Ensure time services are not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.1.5
+    - patch
+
+- name: "SCORED | 2.1.6 | AUDIT | Ensure tftp server is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.1.6
+    - audit
+
+- name: "SCORED | 2.1.6 | PATCH | Ensure tftp server is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.1.6
+    - patch
+
+- name: "SCORED | 2.1.7 | AUDIT | Ensure xinetd is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.1.7
+    - audit
+
+- name: "SCORED | 2.1.7 | PATCH | Ensure xinetd is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.1.7
+    - patch
+
+- name: "SCORED | 2.2.1.1 | AUDIT | Ensure time synchronization is in use"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.1.1
+    - audit
+
+- name: "SCORED | 2.2.1.1 | PATCH | Ensure time synchronization is in use"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.1.1
+    - patch
+
+- name: "SCORED | 2.2.1.2 | AUDIT | Ensure ntp is configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.1.2
+    - audit
+
+- name: "SCORED | 2.2.1.2 | PATCH | Ensure ntp is configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.1.2
+    - patch
+
+- name: "SCORED | 2.2.1.3 | AUDIT | Ensure chrony is configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.1.3
+    - audit
+
+- name: "SCORED | 2.2.1.3 | PATCH | Ensure chrony is configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.1.3
+    - patch
+
+- name: "SCORED | 2.2.2 | AUDIT | Ensure X Window System is not installed"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.2
+    - audit
+
+- name: "SCORED | 2.2.2 | PATCH | Ensure X Window System is not installed"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.2
+    - patch
+
+- name: "SCORED | 2.2.3 | AUDIT | Ensure Avahi Server is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.3
+    - audit
+
+- name: "SCORED | 2.2.3 | PATCH | Ensure Avahi Server is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.3
+    - patch
+
+- name: "SCORED | 2.2.4 | AUDIT | Ensure CUPS is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.4
+    - audit
+
+- name: "SCORED | 2.2.4 | PATCH | Ensure CUPS is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.4
+    - patch
+
+- name: "SCORED | 2.2.5 | AUDIT | Ensure DHCP Server is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.5
+    - audit
+
+- name: "SCORED | 2.2.5 | PATCH | Ensure DHCP Server is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.5
+    - patch
+
+- name: "SCORED | 2.2.6 | AUDIT | Ensure LDAP server is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.6
+    - audit
+
+- name: "SCORED | 2.2.6 | PATCH | Ensure LDAP server is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.6
+    - patch
+
+- name: "SCORED | 2.2.7 | AUDIT | Ensure NFS and RPC are not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.7
+    - audit
+
+- name: "SCORED | 2.2.7 | PATCH | Ensure NFS and RPC are not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.7
+    - patch
+
+- name: "SCORED | 2.2.8 | AUDIT | Ensure DNS Server is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.8
+    - audit
+
+- name: "SCORED | 2.2.8 | PATCH | Ensure DNS Server is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.8
+    - patch
+
+- name: "SCORED | 2.2.9 | AUDIT | Ensure FTP Server is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.9
+    - audit
+
+- name: "SCORED | 2.2.9 | PATCH | Ensure FTP Server is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.9
+    - patch
+
+- name: "SCORED | 2.2.10 | AUDIT | Ensure HTTP server is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.10
+    - audit
+
+- name: "SCORED | 2.2.10 | PATCH | Ensure HTTP server is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.10
+    - patch
+
+- name: "SCORED | 2.2.11 | AUDIT | Ensure IMAP and POP3 server is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.11
+    - audit
+
+- name: "SCORED | 2.2.11 | PATCH | Ensure IMAP and POP3 server is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.11
+    - patch
+
+- name: "SCORED | 2.2.12 | AUDIT | Ensure Samba is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.12
+    - audit
+
+- name: "SCORED | 2.2.12 | PATCH | Ensure Samba is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.12
+    - patch
+
+- name: "SCORED | 2.2.13 | AUDIT | Ensure HTTP Proxy Server is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.13
+    - audit
+
+- name: "SCORED | 2.2.13 | PATCH | Ensure HTTP Proxy Server is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.13
+    - patch
+
+- name: "SCORED | 2.2.14 | AUDIT | Ensure SNMP Server is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.14
+    - audit
+
+- name: "SCORED | 2.2.14 | PATCH | Ensure SNMP Server is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.14
+    - patch
+
+- name: "SCORED | 2.2.15 | AUDIT | Ensure mail transfer agent is configured for local-only mode"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.15
+    - audit
+
+- name: "SCORED | 2.2.15 | PATCH | Ensure mail transfer agent is configured for local-only mode"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.15
+    - patch
+
+- name: "SCORED | 2.2.16 | AUDIT | Ensure NIS Server is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.16
+    - audit
+
+- name: "SCORED | 2.2.16 | PATCH | Ensure NIS Server is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.16
+    - patch
+
+- name: "SCORED | 2.2.17 | AUDIT | Ensure rsh server is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.17
+    - audit
+
+- name: "SCORED | 2.2.17 | PATCH | Ensure rsh server is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.17
+    - patch
+
+- name: "SCORED | 2.2.18 | AUDIT | Ensure talk server is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.18
+    - audit
+
+- name: "SCORED | 2.2.18 | PATCH | Ensure talk server is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.18
+    - patch
+
+- name: "SCORED | 2.2.19 | AUDIT | Ensure telnet server is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.19
+    - audit
+
+- name: "SCORED | 2.2.19 | PATCH | Ensure telnet server is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.19
+    - patch
+
+- name: "SCORED | 2.2.20 | AUDIT | Ensure tftp server is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.20
+    - audit
+
+- name: "SCORED | 2.2.20 | PATCH | Ensure tftp server is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.20
+    - patch
+
+- name: "SCORED | 2.2.21 | AUDIT | Ensure rsync service is not enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.2.21
+    - audit
+
+- name: "SCORED | 2.2.21 | PATCH | Ensure rsync service is not enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.2.21
+    - patch
+
+- name: "SCORED | 2.3.1 | AUDIT | Ensure NIS Client is not installed"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.3.1
+    - audit
+
+- name: "SCORED | 2.3.1 | PATCH | Ensure NIS Client is not installed"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.3.1
+    - patch
+
+- name: "SCORED | 2.3.2 | AUDIT | Ensure rsh client is not installed"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.3.2
+    - audit
+
+- name: "SCORED | 2.3.2 | PATCH | Ensure rsh client is not installed"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.3.2
+    - patch
+
+- name: "SCORED | 2.3.3 | AUDIT | Ensure talk client is not installed"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.3.3
+    - audit
+
+- name: "SCORED | 2.3.3 | PATCH | Ensure talk client is not installed"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.3.3
+    - patch
+
+- name: "SCORED | 2.3.4 | AUDIT | Ensure telnet client is not installed"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.3.4
+    - audit
+
+- name: "SCORED | 2.3.4 | PATCH | Ensure telnet client is not installed"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.3.4
+    - patch
+
+- name: "SCORED | 2.3.5 | AUDIT | Ensure LDAP client is not installed"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_2.3.5
+    - audit
+
+- name: "SCORED | 2.3.5 | PATCH | Ensure LDAP client is not installed"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_2.3.5
+    - patch
+

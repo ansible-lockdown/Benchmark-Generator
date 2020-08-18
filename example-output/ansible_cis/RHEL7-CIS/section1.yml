@@ -1,0 +1,1131 @@
+---
+- name: "SCORED | 1.1.1.1 | AUDIT | Ensure mounting of cramfs filesystems is disabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.1.1
+    - audit
+
+- name: "SCORED | 1.1.1.1 | PATCH | Ensure mounting of cramfs filesystems is disabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.1.1
+    - patch
+
+- name: "SCORED | 1.1.1.2 | AUDIT | Ensure mounting of freevxfs filesystems is disabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.1.2
+    - audit
+
+- name: "SCORED | 1.1.1.2 | PATCH | Ensure mounting of freevxfs filesystems is disabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.1.2
+    - patch
+
+- name: "SCORED | 1.1.1.3 | AUDIT | Ensure mounting of jffs2 filesystems is disabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.1.3
+    - audit
+
+- name: "SCORED | 1.1.1.3 | PATCH | Ensure mounting of jffs2 filesystems is disabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.1.3
+    - patch
+
+- name: "SCORED | 1.1.1.4 | AUDIT | Ensure mounting of hfs filesystems is disabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.1.4
+    - audit
+
+- name: "SCORED | 1.1.1.4 | PATCH | Ensure mounting of hfs filesystems is disabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.1.4
+    - patch
+
+- name: "SCORED | 1.1.1.5 | AUDIT | Ensure mounting of hfsplus filesystems is disabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.1.5
+    - audit
+
+- name: "SCORED | 1.1.1.5 | PATCH | Ensure mounting of hfsplus filesystems is disabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.1.5
+    - patch
+
+- name: "SCORED | 1.1.1.6 | AUDIT | Ensure mounting of squashfs filesystems is disabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.1.6
+    - audit
+
+- name: "SCORED | 1.1.1.6 | PATCH | Ensure mounting of squashfs filesystems is disabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.1.6
+    - patch
+
+- name: "SCORED | 1.1.1.7 | AUDIT | Ensure mounting of udf filesystems is disabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.1.7
+    - audit
+
+- name: "SCORED | 1.1.1.7 | PATCH | Ensure mounting of udf filesystems is disabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.1.7
+    - patch
+
+- name: "SCORED | 1.1.1.8 | AUDIT | Ensure mounting of FAT filesystems is disabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_1.1.1.8
+    - audit
+
+- name: "SCORED | 1.1.1.8 | PATCH | Ensure mounting of FAT filesystems is disabled"
+  command: true
+  tags:
+    - level2
+    - rule_1.1.1.8
+    - patch
+
+- name: "SCORED | 1.1.2 | AUDIT | Ensure separate partition exists for tmp"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_1.1.2
+    - audit
+
+- name: "SCORED | 1.1.2 | PATCH | Ensure separate partition exists for tmp"
+  command: true
+  tags:
+    - level2
+    - rule_1.1.2
+    - patch
+
+- name: "SCORED | 1.1.3 | AUDIT | Ensure nodev option set on tmp partition"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.3
+    - audit
+
+- name: "SCORED | 1.1.3 | PATCH | Ensure nodev option set on tmp partition"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.3
+    - patch
+
+- name: "SCORED | 1.1.4 | AUDIT | Ensure nosuid option set on tmp partition"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.4
+    - audit
+
+- name: "SCORED | 1.1.4 | PATCH | Ensure nosuid option set on tmp partition"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.4
+    - patch
+
+- name: "SCORED | 1.1.5 | AUDIT | Ensure noexec option set on tmp partition"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.5
+    - audit
+
+- name: "SCORED | 1.1.5 | PATCH | Ensure noexec option set on tmp partition"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.5
+    - patch
+
+- name: "SCORED | 1.1.6 | AUDIT | Ensure separate partition exists for var"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_1.1.6
+    - audit
+
+- name: "SCORED | 1.1.6 | PATCH | Ensure separate partition exists for var"
+  command: true
+  tags:
+    - level2
+    - rule_1.1.6
+    - patch
+
+- name: "SCORED | 1.1.7 | AUDIT | Ensure separate partition exists for vartmp"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_1.1.7
+    - audit
+
+- name: "SCORED | 1.1.7 | PATCH | Ensure separate partition exists for vartmp"
+  command: true
+  tags:
+    - level2
+    - rule_1.1.7
+    - patch
+
+- name: "SCORED | 1.1.8 | AUDIT | Ensure nodev option set on vartmp partition"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.8
+    - audit
+
+- name: "SCORED | 1.1.8 | PATCH | Ensure nodev option set on vartmp partition"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.8
+    - patch
+
+- name: "SCORED | 1.1.9 | AUDIT | Ensure nosuid option set on vartmp partition"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.9
+    - audit
+
+- name: "SCORED | 1.1.9 | PATCH | Ensure nosuid option set on vartmp partition"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.9
+    - patch
+
+- name: "SCORED | 1.1.10 | AUDIT | Ensure noexec option set on vartmp partition"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.10
+    - audit
+
+- name: "SCORED | 1.1.10 | PATCH | Ensure noexec option set on vartmp partition"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.10
+    - patch
+
+- name: "SCORED | 1.1.11 | AUDIT | Ensure separate partition exists for varlog"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_1.1.11
+    - audit
+
+- name: "SCORED | 1.1.11 | PATCH | Ensure separate partition exists for varlog"
+  command: true
+  tags:
+    - level2
+    - rule_1.1.11
+    - patch
+
+- name: "SCORED | 1.1.12 | AUDIT | Ensure separate partition exists for varlogaudit"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_1.1.12
+    - audit
+
+- name: "SCORED | 1.1.12 | PATCH | Ensure separate partition exists for varlogaudit"
+  command: true
+  tags:
+    - level2
+    - rule_1.1.12
+    - patch
+
+- name: "SCORED | 1.1.13 | AUDIT | Ensure separate partition exists for home"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_1.1.13
+    - audit
+
+- name: "SCORED | 1.1.13 | PATCH | Ensure separate partition exists for home"
+  command: true
+  tags:
+    - level2
+    - rule_1.1.13
+    - patch
+
+- name: "SCORED | 1.1.14 | AUDIT | Ensure nodev option set on home partition"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.14
+    - audit
+
+- name: "SCORED | 1.1.14 | PATCH | Ensure nodev option set on home partition"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.14
+    - patch
+
+- name: "SCORED | 1.1.15 | AUDIT | Ensure nodev option set on devshm partition"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.15
+    - audit
+
+- name: "SCORED | 1.1.15 | PATCH | Ensure nodev option set on devshm partition"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.15
+    - patch
+
+- name: "SCORED | 1.1.16 | AUDIT | Ensure nosuid option set on devshm partition"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.16
+    - audit
+
+- name: "SCORED | 1.1.16 | PATCH | Ensure nosuid option set on devshm partition"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.16
+    - patch
+
+- name: "SCORED | 1.1.17 | AUDIT | Ensure noexec option set on devshm partition"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.17
+    - audit
+
+- name: "SCORED | 1.1.17 | PATCH | Ensure noexec option set on devshm partition"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.17
+    - patch
+
+- name: "SCORED | 1.1.18 | AUDIT | Ensure nodev option set on removable media partitions"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.18
+    - audit
+
+- name: "SCORED | 1.1.18 | PATCH | Ensure nodev option set on removable media partitions"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.18
+    - patch
+
+- name: "SCORED | 1.1.19 | AUDIT | Ensure nosuid option set on removable media partitions"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.19
+    - audit
+
+- name: "SCORED | 1.1.19 | PATCH | Ensure nosuid option set on removable media partitions"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.19
+    - patch
+
+- name: "SCORED | 1.1.20 | AUDIT | Ensure noexec option set on removable media partitions"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.20
+    - audit
+
+- name: "SCORED | 1.1.20 | PATCH | Ensure noexec option set on removable media partitions"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.20
+    - patch
+
+- name: "SCORED | 1.1.21 | AUDIT | Ensure sticky bit is set on all world-writable directories"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.21
+    - audit
+
+- name: "SCORED | 1.1.21 | PATCH | Ensure sticky bit is set on all world-writable directories"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.21
+    - patch
+
+- name: "SCORED | 1.1.22 | AUDIT | Disable Automounting"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.1.22
+    - audit
+
+- name: "SCORED | 1.1.22 | PATCH | Disable Automounting"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.1.22
+    - patch
+
+- name: "SCORED | 1.2.1 | AUDIT | Ensure package manager repositories are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.2.1
+    - audit
+
+- name: "SCORED | 1.2.1 | PATCH | Ensure package manager repositories are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.2.1
+    - patch
+
+- name: "SCORED | 1.2.2 | AUDIT | Ensure gpgcheck is globally activated"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.2.2
+    - audit
+
+- name: "SCORED | 1.2.2 | PATCH | Ensure gpgcheck is globally activated"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.2.2
+    - patch
+
+- name: "SCORED | 1.2.3 | AUDIT | Ensure GPG keys are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.2.3
+    - audit
+
+- name: "SCORED | 1.2.3 | PATCH | Ensure GPG keys are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.2.3
+    - patch
+
+- name: "SCORED | 1.2.4 | AUDIT | Ensure Red Hat Subscription Manager connection is configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.2.4
+    - audit
+
+- name: "SCORED | 1.2.4 | PATCH | Ensure Red Hat Subscription Manager connection is configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.2.4
+    - patch
+
+- name: "SCORED | 1.2.5 | AUDIT | Disable the rhnsd Daemon"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_1.2.5
+    - audit
+
+- name: "SCORED | 1.2.5 | PATCH | Disable the rhnsd Daemon"
+  command: true
+  tags:
+    - level2
+    - rule_1.2.5
+    - patch
+
+- name: "SCORED | 1.3.1 | AUDIT | Ensure AIDE is installed"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.3.1
+    - audit
+
+- name: "SCORED | 1.3.1 | PATCH | Ensure AIDE is installed"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.3.1
+    - patch
+
+- name: "SCORED | 1.3.2 | AUDIT | Ensure filesystem integrity is regularly checked"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.3.2
+    - audit
+
+- name: "SCORED | 1.3.2 | PATCH | Ensure filesystem integrity is regularly checked"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.3.2
+    - patch
+
+- name: "SCORED | 1.4.1 | AUDIT | Ensure permissions on bootloader config are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.4.1
+    - audit
+
+- name: "SCORED | 1.4.1 | PATCH | Ensure permissions on bootloader config are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.4.1
+    - patch
+
+- name: "SCORED | 1.4.2 | AUDIT | Ensure bootloader password is set"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.4.2
+    - audit
+
+- name: "SCORED | 1.4.2 | PATCH | Ensure bootloader password is set"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.4.2
+    - patch
+
+- name: "SCORED | 1.4.3 | AUDIT | Ensure authentication required for single user mode"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.4.3
+    - audit
+
+- name: "SCORED | 1.4.3 | PATCH | Ensure authentication required for single user mode"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.4.3
+    - patch
+
+- name: "SCORED | 1.5.1 | AUDIT | Ensure core dumps are restricted"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.5.1
+    - audit
+
+- name: "SCORED | 1.5.1 | PATCH | Ensure core dumps are restricted"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.5.1
+    - patch
+
+- name: "SCORED | 1.5.2 | AUDIT | Ensure XDNX support is enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.5.2
+    - audit
+
+- name: "SCORED | 1.5.2 | PATCH | Ensure XDNX support is enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.5.2
+    - patch
+
+- name: "SCORED | 1.5.3 | AUDIT | Ensure address space layout randomization ASLR is enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.5.3
+    - audit
+
+- name: "SCORED | 1.5.3 | PATCH | Ensure address space layout randomization ASLR is enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.5.3
+    - patch
+
+- name: "SCORED | 1.5.4 | AUDIT | Ensure prelink is disabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.5.4
+    - audit
+
+- name: "SCORED | 1.5.4 | PATCH | Ensure prelink is disabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.5.4
+    - patch
+
+- name: "SCORED | 1.6.1.1 | AUDIT | Ensure SELinux is not disabled in bootloader configuration"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_1.6.1.1
+    - audit
+
+- name: "SCORED | 1.6.1.1 | PATCH | Ensure SELinux is not disabled in bootloader configuration"
+  command: true
+  tags:
+    - level2
+    - rule_1.6.1.1
+    - patch
+
+- name: "SCORED | 1.6.1.2 | AUDIT | Ensure the SELinux state is enforcing"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_1.6.1.2
+    - audit
+
+- name: "SCORED | 1.6.1.2 | PATCH | Ensure the SELinux state is enforcing"
+  command: true
+  tags:
+    - level2
+    - rule_1.6.1.2
+    - patch
+
+- name: "SCORED | 1.6.1.3 | AUDIT | Ensure SELinux policy is configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_1.6.1.3
+    - audit
+
+- name: "SCORED | 1.6.1.3 | PATCH | Ensure SELinux policy is configured"
+  command: true
+  tags:
+    - level2
+    - rule_1.6.1.3
+    - patch
+
+- name: "SCORED | 1.6.1.4 | AUDIT | Ensure SETroubleshoot is not installed"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_1.6.1.4
+    - audit
+
+- name: "SCORED | 1.6.1.4 | PATCH | Ensure SETroubleshoot is not installed"
+  command: true
+  tags:
+    - level2
+    - rule_1.6.1.4
+    - patch
+
+- name: "SCORED | 1.6.1.5 | AUDIT | Ensure the MCS Translation Service mcstrans is not installed"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_1.6.1.5
+    - audit
+
+- name: "SCORED | 1.6.1.5 | PATCH | Ensure the MCS Translation Service mcstrans is not installed"
+  command: true
+  tags:
+    - level2
+    - rule_1.6.1.5
+    - patch
+
+- name: "SCORED | 1.6.1.6 | AUDIT | Ensure no unconfined daemons exist"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_1.6.1.6
+    - audit
+
+- name: "SCORED | 1.6.1.6 | PATCH | Ensure no unconfined daemons exist"
+  command: true
+  tags:
+    - level2
+    - rule_1.6.1.6
+    - patch
+
+- name: "SCORED | 1.6.2 | AUDIT | Ensure SELinux is installed"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_1.6.2
+    - audit
+
+- name: "SCORED | 1.6.2 | PATCH | Ensure SELinux is installed"
+  command: true
+  tags:
+    - level2
+    - rule_1.6.2
+    - patch
+
+- name: "SCORED | 1.7.1.1 | AUDIT | Ensure message of the day is configured properly"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.7.1.1
+    - audit
+
+- name: "SCORED | 1.7.1.1 | PATCH | Ensure message of the day is configured properly"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.7.1.1
+    - patch
+
+- name: "SCORED | 1.7.1.2 | AUDIT | Ensure local login warning banner is configured properly"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.7.1.2
+    - audit
+
+- name: "SCORED | 1.7.1.2 | PATCH | Ensure local login warning banner is configured properly"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.7.1.2
+    - patch
+
+- name: "SCORED | 1.7.1.3 | AUDIT | Ensure remote login warning banner is configured properly"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.7.1.3
+    - audit
+
+- name: "SCORED | 1.7.1.3 | PATCH | Ensure remote login warning banner is configured properly"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.7.1.3
+    - patch
+
+- name: "SCORED | 1.7.1.4 | AUDIT | Ensure permissions on etcmotd are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.7.1.4
+    - audit
+
+- name: "SCORED | 1.7.1.4 | PATCH | Ensure permissions on etcmotd are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.7.1.4
+    - patch
+
+- name: "SCORED | 1.7.1.5 | AUDIT | Ensure permissions on etcissue are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.7.1.5
+    - audit
+
+- name: "SCORED | 1.7.1.5 | PATCH | Ensure permissions on etcissue are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.7.1.5
+    - patch
+
+- name: "SCORED | 1.7.1.6 | AUDIT | Ensure permissions on etcissue.net are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.7.1.6
+    - audit
+
+- name: "SCORED | 1.7.1.6 | PATCH | Ensure permissions on etcissue.net are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.7.1.6
+    - patch
+
+- name: "SCORED | 1.7.2 | AUDIT | Ensure GDM login banner is configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.7.2
+    - audit
+
+- name: "SCORED | 1.7.2 | PATCH | Ensure GDM login banner is configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.7.2
+    - patch
+
+- name: "SCORED | 1.8 | AUDIT | Ensure updates patches and additional security software are installed"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_1.8
+    - audit
+
+- name: "SCORED | 1.8 | PATCH | Ensure updates patches and additional security software are installed"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_1.8
+    - patch
+

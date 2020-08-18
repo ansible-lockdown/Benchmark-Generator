@@ -1,0 +1,621 @@
+---
+- name: "SCORED | 4.1.1.1 | AUDIT | Ensure audit log storage size is configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.1.1
+    - audit
+
+- name: "SCORED | 4.1.1.1 | PATCH | Ensure audit log storage size is configured"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.1.1
+    - patch
+
+- name: "SCORED | 4.1.1.2 | AUDIT | Ensure system is disabled when audit logs are full"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.1.2
+    - audit
+
+- name: "SCORED | 4.1.1.2 | PATCH | Ensure system is disabled when audit logs are full"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.1.2
+    - patch
+
+- name: "SCORED | 4.1.1.3 | AUDIT | Ensure audit logs are not automatically deleted"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.1.3
+    - audit
+
+- name: "SCORED | 4.1.1.3 | PATCH | Ensure audit logs are not automatically deleted"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.1.3
+    - patch
+
+- name: "SCORED | 4.1.2 | AUDIT | Ensure auditd service is enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.2
+    - audit
+
+- name: "SCORED | 4.1.2 | PATCH | Ensure auditd service is enabled"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.2
+    - patch
+
+- name: "SCORED | 4.1.3 | AUDIT | Ensure auditing for processes that start prior to auditd is enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.3
+    - audit
+
+- name: "SCORED | 4.1.3 | PATCH | Ensure auditing for processes that start prior to auditd is enabled"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.3
+    - patch
+
+- name: "SCORED | 4.1.4 | AUDIT | Ensure events that modify date and time information are collected"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.4
+    - audit
+
+- name: "SCORED | 4.1.4 | PATCH | Ensure events that modify date and time information are collected"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.4
+    - patch
+
+- name: "SCORED | 4.1.5 | AUDIT | Ensure events that modify usergroup information are collected"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.5
+    - audit
+
+- name: "SCORED | 4.1.5 | PATCH | Ensure events that modify usergroup information are collected"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.5
+    - patch
+
+- name: "SCORED | 4.1.6 | AUDIT | Ensure events that modify the systems network environment are collected"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.6
+    - audit
+
+- name: "SCORED | 4.1.6 | PATCH | Ensure events that modify the systems network environment are collected"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.6
+    - patch
+
+- name: "SCORED | 4.1.7 | AUDIT | Ensure events that modify the systems Mandatory Access Controls are collected"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.7
+    - audit
+
+- name: "SCORED | 4.1.7 | PATCH | Ensure events that modify the systems Mandatory Access Controls are collected"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.7
+    - patch
+
+- name: "SCORED | 4.1.8 | AUDIT | Ensure login and logout events are collected"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.8
+    - audit
+
+- name: "SCORED | 4.1.8 | PATCH | Ensure login and logout events are collected"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.8
+    - patch
+
+- name: "SCORED | 4.1.9 | AUDIT | Ensure session initiation information is collected"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.9
+    - audit
+
+- name: "SCORED | 4.1.9 | PATCH | Ensure session initiation information is collected"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.9
+    - patch
+
+- name: "SCORED | 4.1.10 | AUDIT | Ensure discretionary access control permission modification events are collected"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.10
+    - audit
+
+- name: "SCORED | 4.1.10 | PATCH | Ensure discretionary access control permission modification events are collected"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.10
+    - patch
+
+- name: "SCORED | 4.1.11 | AUDIT | Ensure unsuccessful unauthorized file access attempts are collected"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.11
+    - audit
+
+- name: "SCORED | 4.1.11 | PATCH | Ensure unsuccessful unauthorized file access attempts are collected"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.11
+    - patch
+
+- name: "SCORED | 4.1.12 | AUDIT | Ensure use of privileged commands is collected"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.12
+    - audit
+
+- name: "SCORED | 4.1.12 | PATCH | Ensure use of privileged commands is collected"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.12
+    - patch
+
+- name: "SCORED | 4.1.13 | AUDIT | Ensure successful file system mounts are collected"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.13
+    - audit
+
+- name: "SCORED | 4.1.13 | PATCH | Ensure successful file system mounts are collected"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.13
+    - patch
+
+- name: "SCORED | 4.1.14 | AUDIT | Ensure file deletion events by users are collected"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.14
+    - audit
+
+- name: "SCORED | 4.1.14 | PATCH | Ensure file deletion events by users are collected"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.14
+    - patch
+
+- name: "SCORED | 4.1.15 | AUDIT | Ensure changes to system administration scope sudoers is collected"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.15
+    - audit
+
+- name: "SCORED | 4.1.15 | PATCH | Ensure changes to system administration scope sudoers is collected"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.15
+    - patch
+
+- name: "SCORED | 4.1.16 | AUDIT | Ensure system administrator actions sudolog are collected"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.16
+    - audit
+
+- name: "SCORED | 4.1.16 | PATCH | Ensure system administrator actions sudolog are collected"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.16
+    - patch
+
+- name: "SCORED | 4.1.17 | AUDIT | Ensure kernel module loading and unloading is collected"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.17
+    - audit
+
+- name: "SCORED | 4.1.17 | PATCH | Ensure kernel module loading and unloading is collected"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.17
+    - patch
+
+- name: "SCORED | 4.1.18 | AUDIT | Ensure the audit configuration is immutable"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_4.1.18
+    - audit
+
+- name: "SCORED | 4.1.18 | PATCH | Ensure the audit configuration is immutable"
+  command: true
+  tags:
+    - level2
+    - rule_4.1.18
+    - patch
+
+- name: "SCORED | 4.2.1.1 | AUDIT | Ensure rsyslog Service is enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_4.2.1.1
+    - audit
+
+- name: "SCORED | 4.2.1.1 | PATCH | Ensure rsyslog Service is enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_4.2.1.1
+    - patch
+
+- name: "SCORED | 4.2.1.2 | AUDIT | Ensure logging is configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_4.2.1.2
+    - audit
+
+- name: "SCORED | 4.2.1.2 | PATCH | Ensure logging is configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_4.2.1.2
+    - patch
+
+- name: "SCORED | 4.2.1.3 | AUDIT | Ensure rsyslog default file permissions configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_4.2.1.3
+    - audit
+
+- name: "SCORED | 4.2.1.3 | PATCH | Ensure rsyslog default file permissions configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_4.2.1.3
+    - patch
+
+- name: "SCORED | 4.2.1.4 | AUDIT | Ensure rsyslog is configured to send logs to a remote log host"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_4.2.1.4
+    - audit
+
+- name: "SCORED | 4.2.1.4 | PATCH | Ensure rsyslog is configured to send logs to a remote log host"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_4.2.1.4
+    - patch
+
+- name: "SCORED | 4.2.1.5 | AUDIT | Ensure remote rsyslog messages are only accepted on designated log hosts."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_4.2.1.5
+    - audit
+
+- name: "SCORED | 4.2.1.5 | PATCH | Ensure remote rsyslog messages are only accepted on designated log hosts."
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_4.2.1.5
+    - patch
+
+- name: "SCORED | 4.2.2.1 | AUDIT | Ensure syslog-ng service is enabled"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_4.2.2.1
+    - audit
+
+- name: "SCORED | 4.2.2.1 | PATCH | Ensure syslog-ng service is enabled"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_4.2.2.1
+    - patch
+
+- name: "SCORED | 4.2.2.2 | AUDIT | Ensure logging is configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_4.2.2.2
+    - audit
+
+- name: "SCORED | 4.2.2.2 | PATCH | Ensure logging is configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_4.2.2.2
+    - patch
+
+- name: "SCORED | 4.2.2.3 | AUDIT | Ensure syslog-ng default file permissions configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_4.2.2.3
+    - audit
+
+- name: "SCORED | 4.2.2.3 | PATCH | Ensure syslog-ng default file permissions configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_4.2.2.3
+    - patch
+
+- name: "SCORED | 4.2.2.4 | AUDIT | Ensure syslog-ng is configured to send logs to a remote log host"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_4.2.2.4
+    - audit
+
+- name: "SCORED | 4.2.2.4 | PATCH | Ensure syslog-ng is configured to send logs to a remote log host"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_4.2.2.4
+    - patch
+
+- name: "SCORED | 4.2.2.5 | AUDIT | Ensure remote syslog-ng messages are only accepted on designated log hosts"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_4.2.2.5
+    - audit
+
+- name: "SCORED | 4.2.2.5 | PATCH | Ensure remote syslog-ng messages are only accepted on designated log hosts"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_4.2.2.5
+    - patch
+
+- name: "SCORED | 4.2.3 | AUDIT | Ensure rsyslog or syslog-ng is installed"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_4.2.3
+    - audit
+
+- name: "SCORED | 4.2.3 | PATCH | Ensure rsyslog or syslog-ng is installed"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_4.2.3
+    - patch
+
+- name: "SCORED | 4.2.4 | AUDIT | Ensure permissions on all logfiles are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_4.2.4
+    - audit
+
+- name: "SCORED | 4.2.4 | PATCH | Ensure permissions on all logfiles are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_4.2.4
+    - patch
+
+- name: "SCORED | 4.3 | AUDIT | Ensure logrotate is configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_4.3
+    - audit
+
+- name: "SCORED | 4.3 | PATCH | Ensure logrotate is configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_4.3
+    - patch
+

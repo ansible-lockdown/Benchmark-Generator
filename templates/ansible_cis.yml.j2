@@ -1,0 +1,23 @@
+---
+{% for task in tasks -%}
+- name: "SCORED | {{ task.number }} | AUDIT | {{ task.name }}"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    {% for tag in task.tags -%}
+    - {{ tag }}
+    {% endfor -%}
+    - audit
+
+- name: "SCORED | {{ task.number }} | PATCH | {{ task.name }}"
+  command: true
+  tags:
+    {% for tag in task.tags -%}
+    - {{ tag }}
+    {% endfor -%}
+    - patch
+
+{% endfor %}

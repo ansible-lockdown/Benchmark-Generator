@@ -1,0 +1,659 @@
+---
+- name: "SCORED | 6.1.1 | AUDIT | Audit system file permissions"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level2
+    - rule_6.1.1
+    - audit
+
+- name: "SCORED | 6.1.1 | PATCH | Audit system file permissions"
+  command: true
+  tags:
+    - level2
+    - rule_6.1.1
+    - patch
+
+- name: "SCORED | 6.1.2 | AUDIT | Ensure permissions on etcpasswd are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.1.2
+    - audit
+
+- name: "SCORED | 6.1.2 | PATCH | Ensure permissions on etcpasswd are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.1.2
+    - patch
+
+- name: "SCORED | 6.1.3 | AUDIT | Ensure permissions on etcshadow are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.1.3
+    - audit
+
+- name: "SCORED | 6.1.3 | PATCH | Ensure permissions on etcshadow are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.1.3
+    - patch
+
+- name: "SCORED | 6.1.4 | AUDIT | Ensure permissions on etcgroup are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.1.4
+    - audit
+
+- name: "SCORED | 6.1.4 | PATCH | Ensure permissions on etcgroup are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.1.4
+    - patch
+
+- name: "SCORED | 6.1.5 | AUDIT | Ensure permissions on etcgshadow are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.1.5
+    - audit
+
+- name: "SCORED | 6.1.5 | PATCH | Ensure permissions on etcgshadow are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.1.5
+    - patch
+
+- name: "SCORED | 6.1.6 | AUDIT | Ensure permissions on etcpasswd- are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.1.6
+    - audit
+
+- name: "SCORED | 6.1.6 | PATCH | Ensure permissions on etcpasswd- are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.1.6
+    - patch
+
+- name: "SCORED | 6.1.7 | AUDIT | Ensure permissions on etcshadow- are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.1.7
+    - audit
+
+- name: "SCORED | 6.1.7 | PATCH | Ensure permissions on etcshadow- are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.1.7
+    - patch
+
+- name: "SCORED | 6.1.8 | AUDIT | Ensure permissions on etcgroup- are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.1.8
+    - audit
+
+- name: "SCORED | 6.1.8 | PATCH | Ensure permissions on etcgroup- are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.1.8
+    - patch
+
+- name: "SCORED | 6.1.9 | AUDIT | Ensure permissions on etcgshadow- are configured"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.1.9
+    - audit
+
+- name: "SCORED | 6.1.9 | PATCH | Ensure permissions on etcgshadow- are configured"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.1.9
+    - patch
+
+- name: "SCORED | 6.1.10 | AUDIT | Ensure no world writable files exist"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.1.10
+    - audit
+
+- name: "SCORED | 6.1.10 | PATCH | Ensure no world writable files exist"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.1.10
+    - patch
+
+- name: "SCORED | 6.1.11 | AUDIT | Ensure no unowned files or directories exist"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.1.11
+    - audit
+
+- name: "SCORED | 6.1.11 | PATCH | Ensure no unowned files or directories exist"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.1.11
+    - patch
+
+- name: "SCORED | 6.1.12 | AUDIT | Ensure no ungrouped files or directories exist"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.1.12
+    - audit
+
+- name: "SCORED | 6.1.12 | PATCH | Ensure no ungrouped files or directories exist"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.1.12
+    - patch
+
+- name: "SCORED | 6.1.13 | AUDIT | Audit SUID executables"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.1.13
+    - audit
+
+- name: "SCORED | 6.1.13 | PATCH | Audit SUID executables"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.1.13
+    - patch
+
+- name: "SCORED | 6.1.14 | AUDIT | Audit SGID executables"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.1.14
+    - audit
+
+- name: "SCORED | 6.1.14 | PATCH | Audit SGID executables"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.1.14
+    - patch
+
+- name: "SCORED | 6.2.1 | AUDIT | Ensure password fields are not empty"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.1
+    - audit
+
+- name: "SCORED | 6.2.1 | PATCH | Ensure password fields are not empty"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.1
+    - patch
+
+- name: "SCORED | 6.2.2 | AUDIT | Ensure no legacy  entries exist in etcpasswd"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.2
+    - audit
+
+- name: "SCORED | 6.2.2 | PATCH | Ensure no legacy  entries exist in etcpasswd"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.2
+    - patch
+
+- name: "SCORED | 6.2.3 | AUDIT | Ensure no legacy  entries exist in etcshadow"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.3
+    - audit
+
+- name: "SCORED | 6.2.3 | PATCH | Ensure no legacy  entries exist in etcshadow"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.3
+    - patch
+
+- name: "SCORED | 6.2.4 | AUDIT | Ensure no legacy  entries exist in etcgroup"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.4
+    - audit
+
+- name: "SCORED | 6.2.4 | PATCH | Ensure no legacy  entries exist in etcgroup"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.4
+    - patch
+
+- name: "SCORED | 6.2.5 | AUDIT | Ensure root is the only UID 0 account"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.5
+    - audit
+
+- name: "SCORED | 6.2.5 | PATCH | Ensure root is the only UID 0 account"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.5
+    - patch
+
+- name: "SCORED | 6.2.6 | AUDIT | Ensure root PATH Integrity"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.6
+    - audit
+
+- name: "SCORED | 6.2.6 | PATCH | Ensure root PATH Integrity"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.6
+    - patch
+
+- name: "SCORED | 6.2.7 | AUDIT | Ensure all users home directories exist"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.7
+    - audit
+
+- name: "SCORED | 6.2.7 | PATCH | Ensure all users home directories exist"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.7
+    - patch
+
+- name: "SCORED | 6.2.8 | AUDIT | Ensure users home directories permissions are 750 or more restrictive"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.8
+    - audit
+
+- name: "SCORED | 6.2.8 | PATCH | Ensure users home directories permissions are 750 or more restrictive"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.8
+    - patch
+
+- name: "SCORED | 6.2.9 | AUDIT | Ensure users own their home directories"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.9
+    - audit
+
+- name: "SCORED | 6.2.9 | PATCH | Ensure users own their home directories"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.9
+    - patch
+
+- name: "SCORED | 6.2.10 | AUDIT | Ensure users dot files are not group or world writable"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.10
+    - audit
+
+- name: "SCORED | 6.2.10 | PATCH | Ensure users dot files are not group or world writable"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.10
+    - patch
+
+- name: "SCORED | 6.2.11 | AUDIT | Ensure no users have .forward files"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.11
+    - audit
+
+- name: "SCORED | 6.2.11 | PATCH | Ensure no users have .forward files"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.11
+    - patch
+
+- name: "SCORED | 6.2.12 | AUDIT | Ensure no users have .netrc files"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.12
+    - audit
+
+- name: "SCORED | 6.2.12 | PATCH | Ensure no users have .netrc files"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.12
+    - patch
+
+- name: "SCORED | 6.2.13 | AUDIT | Ensure users .netrc Files are not group or world accessible"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.13
+    - audit
+
+- name: "SCORED | 6.2.13 | PATCH | Ensure users .netrc Files are not group or world accessible"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.13
+    - patch
+
+- name: "SCORED | 6.2.14 | AUDIT | Ensure no users have .rhosts files"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.14
+    - audit
+
+- name: "SCORED | 6.2.14 | PATCH | Ensure no users have .rhosts files"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.14
+    - patch
+
+- name: "SCORED | 6.2.15 | AUDIT | Ensure all groups in etcpasswd exist in etcgroup"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.15
+    - audit
+
+- name: "SCORED | 6.2.15 | PATCH | Ensure all groups in etcpasswd exist in etcgroup"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.15
+    - patch
+
+- name: "SCORED | 6.2.16 | AUDIT | Ensure no duplicate UIDs exist"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.16
+    - audit
+
+- name: "SCORED | 6.2.16 | PATCH | Ensure no duplicate UIDs exist"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.16
+    - patch
+
+- name: "SCORED | 6.2.17 | AUDIT | Ensure no duplicate GIDs exist"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.17
+    - audit
+
+- name: "SCORED | 6.2.17 | PATCH | Ensure no duplicate GIDs exist"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.17
+    - patch
+
+- name: "SCORED | 6.2.18 | AUDIT | Ensure no duplicate user names exist"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.18
+    - audit
+
+- name: "SCORED | 6.2.18 | PATCH | Ensure no duplicate user names exist"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.18
+    - patch
+
+- name: "SCORED | 6.2.19 | AUDIT | Ensure no duplicate group names exist"
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - level1
+    - level2
+    - rule_6.2.19
+    - audit
+
+- name: "SCORED | 6.2.19 | PATCH | Ensure no duplicate group names exist"
+  command: true
+  tags:
+    - level1
+    - level2
+    - rule_6.2.19
+    - patch
+

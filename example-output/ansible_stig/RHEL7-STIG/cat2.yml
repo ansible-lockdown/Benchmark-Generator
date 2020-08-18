@@ -1,0 +1,4041 @@
+---
+- name: "MEDIUM | V-71859 | AUDIT | The Red Hat Enterprise Linux operating system must display the Standard Mandatory DoD Notice and Consent Banner before granting local or remote access to the system via a graphical user logon."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71859
+    - audit
+
+- name: "MEDIUM | V-71859 | PATCH | The Red Hat Enterprise Linux operating system must display the Standard Mandatory DoD Notice and Consent Banner before granting local or remote access to the system via a graphical user logon."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71859
+    - patch
+
+- name: "MEDIUM | V-71861 | AUDIT | The Red Hat Enterprise Linux operating system must display the approved Standard Mandatory DoD Notice and Consent Banner before granting local or remote access to the system via a graphical user logon."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71861
+    - audit
+
+- name: "MEDIUM | V-71861 | PATCH | The Red Hat Enterprise Linux operating system must display the approved Standard Mandatory DoD Notice and Consent Banner before granting local or remote access to the system via a graphical user logon."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71861
+    - patch
+
+- name: "MEDIUM | V-71863 | AUDIT | The Red Hat Enterprise Linux operating system must display the Standard Mandatory DoD Notice and Consent Banner before granting local or remote access to the system via a command line user logon."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71863
+    - audit
+
+- name: "MEDIUM | V-71863 | PATCH | The Red Hat Enterprise Linux operating system must display the Standard Mandatory DoD Notice and Consent Banner before granting local or remote access to the system via a command line user logon."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71863
+    - patch
+
+- name: "MEDIUM | V-71891 | AUDIT | The Red Hat Enterprise Linux operating system must enable a user session lock until that user re-establishes access using established identification and authentication procedures."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71891
+    - audit
+
+- name: "MEDIUM | V-71891 | PATCH | The Red Hat Enterprise Linux operating system must enable a user session lock until that user re-establishes access using established identification and authentication procedures."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71891
+    - patch
+
+- name: "MEDIUM | V-71893 | AUDIT | The Red Hat Enterprise Linux operating system must initiate a screensaver after a 15-minute period of inactivity for graphical user interfaces."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71893
+    - audit
+
+- name: "MEDIUM | V-71893 | PATCH | The Red Hat Enterprise Linux operating system must initiate a screensaver after a 15-minute period of inactivity for graphical user interfaces."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71893
+    - patch
+
+- name: "MEDIUM | V-71897 | AUDIT | The Red Hat Enterprise Linux operating system must have the screen package installed."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71897
+    - audit
+
+- name: "MEDIUM | V-71897 | PATCH | The Red Hat Enterprise Linux operating system must have the screen package installed."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71897
+    - patch
+
+- name: "MEDIUM | V-71899 | AUDIT | The Red Hat Enterprise Linux operating system must initiate a session lock for the screensaver after a period of inactivity for graphical user interfaces."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71899
+    - audit
+
+- name: "MEDIUM | V-71899 | PATCH | The Red Hat Enterprise Linux operating system must initiate a session lock for the screensaver after a period of inactivity for graphical user interfaces."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71899
+    - patch
+
+- name: "MEDIUM | V-71901 | AUDIT | The Red Hat Enterprise Linux operating system must initiate a session lock for graphical user interfaces when the screensaver is activated."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71901
+    - audit
+
+- name: "MEDIUM | V-71901 | PATCH | The Red Hat Enterprise Linux operating system must initiate a session lock for graphical user interfaces when the screensaver is activated."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71901
+    - patch
+
+- name: "MEDIUM | V-71903 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed or new passwords are established, the new password must contain at least one upper-case character."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71903
+    - audit
+
+- name: "MEDIUM | V-71903 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed or new passwords are established, the new password must contain at least one upper-case character."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71903
+    - patch
+
+- name: "MEDIUM | V-71905 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed or new passwords are established, the new password must contain at least one lower-case character."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71905
+    - audit
+
+- name: "MEDIUM | V-71905 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed or new passwords are established, the new password must contain at least one lower-case character."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71905
+    - patch
+
+- name: "MEDIUM | V-71907 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed or new passwords are assigned, the new password must contain at least one numeric character."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71907
+    - audit
+
+- name: "MEDIUM | V-71907 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed or new passwords are assigned, the new password must contain at least one numeric character."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71907
+    - patch
+
+- name: "MEDIUM | V-71909 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed or new passwords are established, the new password must contain at least one special character."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71909
+    - audit
+
+- name: "MEDIUM | V-71909 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed or new passwords are established, the new password must contain at least one special character."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71909
+    - patch
+
+- name: "MEDIUM | V-71911 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed a minimum of eight of the total number of characters must be changed."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71911
+    - audit
+
+- name: "MEDIUM | V-71911 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed a minimum of eight of the total number of characters must be changed."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71911
+    - patch
+
+- name: "MEDIUM | V-71913 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed a minimum of four character classes must be changed."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71913
+    - audit
+
+- name: "MEDIUM | V-71913 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed a minimum of four character classes must be changed."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71913
+    - patch
+
+- name: "MEDIUM | V-71915 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed the number of repeating consecutive characters must not be more than three characters."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71915
+    - audit
+
+- name: "MEDIUM | V-71915 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed the number of repeating consecutive characters must not be more than three characters."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71915
+    - patch
+
+- name: "MEDIUM | V-71917 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed the number of repeating characters of the same character class must not be more than four characters."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71917
+    - audit
+
+- name: "MEDIUM | V-71917 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed the number of repeating characters of the same character class must not be more than four characters."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71917
+    - patch
+
+- name: "MEDIUM | V-71919 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the PAM system service is configured to store only encrypted representations of passwords."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71919
+    - audit
+
+- name: "MEDIUM | V-71919 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the PAM system service is configured to store only encrypted representations of passwords."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71919
+    - patch
+
+- name: "MEDIUM | V-71921 | AUDIT | The Red Hat Enterprise Linux operating system must be configured to use the shadow file to store only encrypted representations of passwords."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71921
+    - audit
+
+- name: "MEDIUM | V-71921 | PATCH | The Red Hat Enterprise Linux operating system must be configured to use the shadow file to store only encrypted representations of passwords."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71921
+    - patch
+
+- name: "MEDIUM | V-71923 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that user and group account administration utilities are configured to store only encrypted representations of passwords."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71923
+    - audit
+
+- name: "MEDIUM | V-71923 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that user and group account administration utilities are configured to store only encrypted representations of passwords."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71923
+    - patch
+
+- name: "MEDIUM | V-71925 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that passwords for new users are restricted to a 24 hours/1 day minimum lifetime."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71925
+    - audit
+
+- name: "MEDIUM | V-71925 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that passwords for new users are restricted to a 24 hours/1 day minimum lifetime."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71925
+    - patch
+
+- name: "MEDIUM | V-71927 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that passwords are restricted to a 24 hours/1 day minimum lifetime."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71927
+    - audit
+
+- name: "MEDIUM | V-71927 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that passwords are restricted to a 24 hours/1 day minimum lifetime."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71927
+    - patch
+
+- name: "MEDIUM | V-71929 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that passwords for new users are restricted to a 60-day maximum lifetime."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71929
+    - audit
+
+- name: "MEDIUM | V-71929 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that passwords for new users are restricted to a 60-day maximum lifetime."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71929
+    - patch
+
+- name: "MEDIUM | V-71931 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that existing passwords are restricted to a 60-day maximum lifetime."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71931
+    - audit
+
+- name: "MEDIUM | V-71931 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that existing passwords are restricted to a 60-day maximum lifetime."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71931
+    - patch
+
+- name: "MEDIUM | V-71933 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that passwords are prohibited from reuse for a minimum of five generations."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71933
+    - audit
+
+- name: "MEDIUM | V-71933 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that passwords are prohibited from reuse for a minimum of five generations."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71933
+    - patch
+
+- name: "MEDIUM | V-71935 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that passwords are a minimum of 15 characters in length."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71935
+    - audit
+
+- name: "MEDIUM | V-71935 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that passwords are a minimum of 15 characters in length."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71935
+    - patch
+
+- name: "MEDIUM | V-71941 | AUDIT | The Red Hat Enterprise Linux operating system must disable account identifiers (individuals, groups, roles, and devices) if the password expires."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71941
+    - audit
+
+- name: "MEDIUM | V-71941 | PATCH | The Red Hat Enterprise Linux operating system must disable account identifiers (individuals, groups, roles, and devices) if the password expires."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71941
+    - patch
+
+- name: "MEDIUM | V-71943 | AUDIT | The Red Hat Enterprise Linux operating system must be configured to lock accounts for a minimum of 15 minutes after three unsuccessful logon attempts within a 15-minute timeframe."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71943
+    - audit
+
+- name: "MEDIUM | V-71943 | PATCH | The Red Hat Enterprise Linux operating system must be configured to lock accounts for a minimum of 15 minutes after three unsuccessful logon attempts within a 15-minute timeframe."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71943
+    - patch
+
+- name: "MEDIUM | V-71945 | AUDIT | The Red Hat Enterprise Linux operating system must lock the associated account after three unsuccessful root logon attempts are made within a 15-minute period."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71945
+    - audit
+
+- name: "MEDIUM | V-71945 | PATCH | The Red Hat Enterprise Linux operating system must lock the associated account after three unsuccessful root logon attempts are made within a 15-minute period."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71945
+    - patch
+
+- name: "MEDIUM | V-71947 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that users must provide a password for privilege escalation."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71947
+    - audit
+
+- name: "MEDIUM | V-71947 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that users must provide a password for privilege escalation."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71947
+    - patch
+
+- name: "MEDIUM | V-71949 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that users must re-authenticate for privilege escalation."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71949
+    - audit
+
+- name: "MEDIUM | V-71949 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that users must re-authenticate for privilege escalation."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71949
+    - patch
+
+- name: "MEDIUM | V-71951 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the delay between logon prompts following a failed console logon attempt is at least four seconds."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71951
+    - audit
+
+- name: "MEDIUM | V-71951 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the delay between logon prompts following a failed console logon attempt is at least four seconds."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71951
+    - patch
+
+- name: "MEDIUM | V-71957 | AUDIT | The Red Hat Enterprise Linux operating system must not allow users to override SSH environment variables."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71957
+    - audit
+
+- name: "MEDIUM | V-71957 | PATCH | The Red Hat Enterprise Linux operating system must not allow users to override SSH environment variables."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71957
+    - patch
+
+- name: "MEDIUM | V-71959 | AUDIT | The Red Hat Enterprise Linux operating system must not allow a non-certificate trusted host SSH logon to the system."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71959
+    - audit
+
+- name: "MEDIUM | V-71959 | PATCH | The Red Hat Enterprise Linux operating system must not allow a non-certificate trusted host SSH logon to the system."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71959
+    - patch
+
+- name: "MEDIUM | V-71965 | AUDIT | The Red Hat Enterprise Linux operating system must uniquely identify and must authenticate organizational users (or processes acting on behalf of organizational users) using multifactor authentication."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71965
+    - audit
+
+- name: "MEDIUM | V-71965 | PATCH | The Red Hat Enterprise Linux operating system must uniquely identify and must authenticate organizational users (or processes acting on behalf of organizational users) using multifactor authentication."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71965
+    - patch
+
+- name: "MEDIUM | V-71971 | AUDIT | The Red Hat Enterprise Linux operating system must prevent non-privileged users from executing privileged functions to include disabling, circumventing, or altering implemented security safeguards/countermeasures."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71971
+    - audit
+
+- name: "MEDIUM | V-71971 | PATCH | The Red Hat Enterprise Linux operating system must prevent non-privileged users from executing privileged functions to include disabling, circumventing, or altering implemented security safeguards/countermeasures."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71971
+    - patch
+
+- name: "MEDIUM | V-71973 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that a file integrity tool verifies the baseline operating system configuration at least weekly."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71973
+    - audit
+
+- name: "MEDIUM | V-71973 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that a file integrity tool verifies the baseline operating system configuration at least weekly."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71973
+    - patch
+
+- name: "MEDIUM | V-71975 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that designated personnel are notified if baseline configurations are changed in an unauthorized manner."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71975
+    - audit
+
+- name: "MEDIUM | V-71975 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that designated personnel are notified if baseline configurations are changed in an unauthorized manner."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71975
+    - patch
+
+- name: "MEDIUM | V-71983 | AUDIT | The Red Hat Enterprise Linux operating system must be configured to disable USB mass storage."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71983
+    - audit
+
+- name: "MEDIUM | V-71983 | PATCH | The Red Hat Enterprise Linux operating system must be configured to disable USB mass storage."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71983
+    - patch
+
+- name: "MEDIUM | V-71985 | AUDIT | The Red Hat Enterprise Linux operating system must disable the file system automounter unless required."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71985
+    - audit
+
+- name: "MEDIUM | V-71985 | PATCH | The Red Hat Enterprise Linux operating system must disable the file system automounter unless required."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71985
+    - patch
+
+- name: "MEDIUM | V-71995 | AUDIT | The Red Hat Enterprise Linux operating system must define default permissions for all authenticated users in such a way that the user can only read and modify their own files."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71995
+    - audit
+
+- name: "MEDIUM | V-71995 | PATCH | The Red Hat Enterprise Linux operating system must define default permissions for all authenticated users in such a way that the user can only read and modify their own files."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71995
+    - patch
+
+- name: "MEDIUM | V-71999 | AUDIT | The Red Hat Enterprise Linux operating system security patches and updates must be installed and up to date."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-71999
+    - audit
+
+- name: "MEDIUM | V-71999 | PATCH | The Red Hat Enterprise Linux operating system security patches and updates must be installed and up to date."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-71999
+    - patch
+
+- name: "MEDIUM | V-72001 | AUDIT | The Red Hat Enterprise Linux operating system must not have unnecessary accounts."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72001
+    - audit
+
+- name: "MEDIUM | V-72001 | PATCH | The Red Hat Enterprise Linux operating system must not have unnecessary accounts."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72001
+    - patch
+
+- name: "MEDIUM | V-72007 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all files and directories have a valid owner."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72007
+    - audit
+
+- name: "MEDIUM | V-72007 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all files and directories have a valid owner."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72007
+    - patch
+
+- name: "MEDIUM | V-72009 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all files and directories have a valid group owner."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72009
+    - audit
+
+- name: "MEDIUM | V-72009 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all files and directories have a valid group owner."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72009
+    - patch
+
+- name: "MEDIUM | V-72011 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all local interactive users have a home directory assigned in the /etc/passwd file."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72011
+    - audit
+
+- name: "MEDIUM | V-72011 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all local interactive users have a home directory assigned in the /etc/passwd file."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72011
+    - patch
+
+- name: "MEDIUM | V-72013 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all local interactive user accounts, upon creation, are assigned a home directory."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72013
+    - audit
+
+- name: "MEDIUM | V-72013 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all local interactive user accounts, upon creation, are assigned a home directory."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72013
+    - patch
+
+- name: "MEDIUM | V-72015 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all local interactive user home directories are defined in the /etc/passwd file."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72015
+    - audit
+
+- name: "MEDIUM | V-72015 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all local interactive user home directories are defined in the /etc/passwd file."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72015
+    - patch
+
+- name: "MEDIUM | V-72017 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all local interactive user home directories have mode 0750 or less permissive."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72017
+    - audit
+
+- name: "MEDIUM | V-72017 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all local interactive user home directories have mode 0750 or less permissive."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72017
+    - patch
+
+- name: "MEDIUM | V-72019 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all local interactive user home directories are owned by their respective users."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72019
+    - audit
+
+- name: "MEDIUM | V-72019 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all local interactive user home directories are owned by their respective users."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72019
+    - patch
+
+- name: "MEDIUM | V-72021 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all local interactive user home directories are group-owned by the home directory owners primary group."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72021
+    - audit
+
+- name: "MEDIUM | V-72021 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all local interactive user home directories are group-owned by the home directory owners primary group."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72021
+    - patch
+
+- name: "MEDIUM | V-72023 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all files and directories contained in local interactive user home directories are owned by the owner of the home directory."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72023
+    - audit
+
+- name: "MEDIUM | V-72023 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all files and directories contained in local interactive user home directories are owned by the owner of the home directory."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72023
+    - patch
+
+- name: "MEDIUM | V-72025 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all files and directories contained in local interactive user home directories are group-owned by a group of which the home directory owner is a member."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72025
+    - audit
+
+- name: "MEDIUM | V-72025 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all files and directories contained in local interactive user home directories are group-owned by a group of which the home directory owner is a member."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72025
+    - patch
+
+- name: "MEDIUM | V-72027 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all files and directories contained in local interactive user home directories have a mode of 0750 or less permissive."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72027
+    - audit
+
+- name: "MEDIUM | V-72027 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all files and directories contained in local interactive user home directories have a mode of 0750 or less permissive."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72027
+    - patch
+
+- name: "MEDIUM | V-72029 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all local initialization files for interactive users are owned by the home directory user or root."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72029
+    - audit
+
+- name: "MEDIUM | V-72029 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all local initialization files for interactive users are owned by the home directory user or root."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72029
+    - patch
+
+- name: "MEDIUM | V-72031 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all local initialization files for local interactive users are be group-owned by the users primary group or root."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72031
+    - audit
+
+- name: "MEDIUM | V-72031 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all local initialization files for local interactive users are be group-owned by the users primary group or root."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72031
+    - patch
+
+- name: "MEDIUM | V-72033 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all local initialization files have mode 0740 or less permissive."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72033
+    - audit
+
+- name: "MEDIUM | V-72033 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all local initialization files have mode 0740 or less permissive."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72033
+    - patch
+
+- name: "MEDIUM | V-72035 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all local interactive user initialization files executable search paths contain only paths that resolve to the users home directory."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72035
+    - audit
+
+- name: "MEDIUM | V-72035 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all local interactive user initialization files executable search paths contain only paths that resolve to the users home directory."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72035
+    - patch
+
+- name: "MEDIUM | V-72037 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that local initialization files do not execute world-writable programs."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72037
+    - audit
+
+- name: "MEDIUM | V-72037 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that local initialization files do not execute world-writable programs."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72037
+    - patch
+
+- name: "MEDIUM | V-72039 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all system device files are correctly labeled to prevent unauthorized modification."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72039
+    - audit
+
+- name: "MEDIUM | V-72039 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all system device files are correctly labeled to prevent unauthorized modification."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72039
+    - patch
+
+- name: "MEDIUM | V-72041 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that file systems containing user home directories are mounted to prevent files with the setuid and setgid bit set from being executed."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72041
+    - audit
+
+- name: "MEDIUM | V-72041 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that file systems containing user home directories are mounted to prevent files with the setuid and setgid bit set from being executed."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72041
+    - patch
+
+- name: "MEDIUM | V-72043 | AUDIT | The Red Hat Enterprise Linux operating system must prevent files with the setuid and setgid bit set from being executed on file systems that are used with removable media."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72043
+    - audit
+
+- name: "MEDIUM | V-72043 | PATCH | The Red Hat Enterprise Linux operating system must prevent files with the setuid and setgid bit set from being executed on file systems that are used with removable media."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72043
+    - patch
+
+- name: "MEDIUM | V-72045 | AUDIT | The Red Hat Enterprise Linux operating system must prevent files with the setuid and setgid bit set from being executed on file systems that are being imported via Network File System (NFS)."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72045
+    - audit
+
+- name: "MEDIUM | V-72045 | PATCH | The Red Hat Enterprise Linux operating system must prevent files with the setuid and setgid bit set from being executed on file systems that are being imported via Network File System (NFS)."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72045
+    - patch
+
+- name: "MEDIUM | V-72047 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all world-writable directories are group-owned by root, sys, bin, or an application group."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72047
+    - audit
+
+- name: "MEDIUM | V-72047 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all world-writable directories are group-owned by root, sys, bin, or an application group."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72047
+    - patch
+
+- name: "MEDIUM | V-72049 | AUDIT | The Red Hat Enterprise Linux operating system must set the umask value to 077 for all local interactive user accounts."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72049
+    - audit
+
+- name: "MEDIUM | V-72049 | PATCH | The Red Hat Enterprise Linux operating system must set the umask value to 077 for all local interactive user accounts."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72049
+    - patch
+
+- name: "MEDIUM | V-72051 | AUDIT | The Red Hat Enterprise Linux operating system must have cron logging implemented."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72051
+    - audit
+
+- name: "MEDIUM | V-72051 | PATCH | The Red Hat Enterprise Linux operating system must have cron logging implemented."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72051
+    - patch
+
+- name: "MEDIUM | V-72053 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the cron.allow file, if it exists, is owned by root."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72053
+    - audit
+
+- name: "MEDIUM | V-72053 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the cron.allow file, if it exists, is owned by root."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72053
+    - patch
+
+- name: "MEDIUM | V-72055 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the cron.allow file, if it exists, is group-owned by root."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72055
+    - audit
+
+- name: "MEDIUM | V-72055 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the cron.allow file, if it exists, is group-owned by root."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72055
+    - patch
+
+- name: "MEDIUM | V-72057 | AUDIT | The Red Hat Enterprise Linux operating system must disable Kernel core dumps unless needed."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72057
+    - audit
+
+- name: "MEDIUM | V-72057 | PATCH | The Red Hat Enterprise Linux operating system must disable Kernel core dumps unless needed."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72057
+    - patch
+
+- name: "MEDIUM | V-72073 | AUDIT | The Red Hat Enterprise Linux operating system must use a file integrity tool that is configured to use FIPS 140-2 approved cryptographic hashes for validating file contents and directories."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72073
+    - audit
+
+- name: "MEDIUM | V-72073 | PATCH | The Red Hat Enterprise Linux operating system must use a file integrity tool that is configured to use FIPS 140-2 approved cryptographic hashes for validating file contents and directories."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72073
+    - patch
+
+- name: "MEDIUM | V-72075 | AUDIT | The Red Hat Enterprise Linux operating system must not allow removable media to be used as the boot loader unless approved."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72075
+    - audit
+
+- name: "MEDIUM | V-72075 | PATCH | The Red Hat Enterprise Linux operating system must not allow removable media to be used as the boot loader unless approved."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72075
+    - patch
+
+- name: "MEDIUM | V-72081 | AUDIT | The Red Hat Enterprise Linux operating system must shut down upon audit processing failure, unless availability is an overriding concern. If availability is a concern, the system must alert the designated staff (System Administrator [SA] and Information System Security Officer [ISSO] at a minimum) in the event of an audit processing failure."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72081
+    - audit
+
+- name: "MEDIUM | V-72081 | PATCH | The Red Hat Enterprise Linux operating system must shut down upon audit processing failure, unless availability is an overriding concern. If availability is a concern, the system must alert the designated staff (System Administrator [SA] and Information System Security Officer [ISSO] at a minimum) in the event of an audit processing failure."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72081
+    - patch
+
+- name: "MEDIUM | V-72083 | AUDIT | The Red Hat Enterprise Linux operating system must off-load audit records onto a different system or media from the system being audited."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72083
+    - audit
+
+- name: "MEDIUM | V-72083 | PATCH | The Red Hat Enterprise Linux operating system must off-load audit records onto a different system or media from the system being audited."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72083
+    - patch
+
+- name: "MEDIUM | V-72085 | AUDIT | The Red Hat Enterprise Linux operating system must encrypt the transfer of audit records off-loaded onto a different system or media from the system being audited."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72085
+    - audit
+
+- name: "MEDIUM | V-72085 | PATCH | The Red Hat Enterprise Linux operating system must encrypt the transfer of audit records off-loaded onto a different system or media from the system being audited."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72085
+    - patch
+
+- name: "MEDIUM | V-72087 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the audit system takes appropriate action when the audit storage volume is full."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72087
+    - audit
+
+- name: "MEDIUM | V-72087 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the audit system takes appropriate action when the audit storage volume is full."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72087
+    - patch
+
+- name: "MEDIUM | V-72089 | AUDIT | The Red Hat Enterprise Linux operating system must initiate an action to notify the System Administrator (SA) and Information System Security Officer ISSO, at a minimum, when allocated audit record storage volume reaches 75% of the repository maximum audit record storage capacity."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72089
+    - audit
+
+- name: "MEDIUM | V-72089 | PATCH | The Red Hat Enterprise Linux operating system must initiate an action to notify the System Administrator (SA) and Information System Security Officer ISSO, at a minimum, when allocated audit record storage volume reaches 75% of the repository maximum audit record storage capacity."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72089
+    - patch
+
+- name: "MEDIUM | V-72091 | AUDIT | The Red Hat Enterprise Linux operating system must immediately notify the System Administrator (SA) and Information System Security Officer (ISSO) (at a minimum) via email when the threshold for the repository maximum audit record storage capacity is reached."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72091
+    - audit
+
+- name: "MEDIUM | V-72091 | PATCH | The Red Hat Enterprise Linux operating system must immediately notify the System Administrator (SA) and Information System Security Officer (ISSO) (at a minimum) via email when the threshold for the repository maximum audit record storage capacity is reached."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72091
+    - patch
+
+- name: "MEDIUM | V-72093 | AUDIT | The Red Hat Enterprise Linux operating system must immediately notify the System Administrator (SA) and Information System Security Officer (ISSO) (at a minimum) when the threshold for the repository maximum audit record storage capacity is reached."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72093
+    - audit
+
+- name: "MEDIUM | V-72093 | PATCH | The Red Hat Enterprise Linux operating system must immediately notify the System Administrator (SA) and Information System Security Officer (ISSO) (at a minimum) when the threshold for the repository maximum audit record storage capacity is reached."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72093
+    - patch
+
+- name: "MEDIUM | V-72095 | AUDIT | The Red Hat Enterprise Linux operating system must audit all executions of privileged functions."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72095
+    - audit
+
+- name: "MEDIUM | V-72095 | PATCH | The Red Hat Enterprise Linux operating system must audit all executions of privileged functions."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72095
+    - patch
+
+- name: "MEDIUM | V-72097 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the chown syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72097
+    - audit
+
+- name: "MEDIUM | V-72097 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the chown syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72097
+    - patch
+
+- name: "MEDIUM | V-72099 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the fchown syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72099
+    - audit
+
+- name: "MEDIUM | V-72099 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the fchown syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72099
+    - patch
+
+- name: "MEDIUM | V-72101 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the lchown syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72101
+    - audit
+
+- name: "MEDIUM | V-72101 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the lchown syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72101
+    - patch
+
+- name: "MEDIUM | V-72103 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the fchownat syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72103
+    - audit
+
+- name: "MEDIUM | V-72103 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the fchownat syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72103
+    - patch
+
+- name: "MEDIUM | V-72105 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the chmod syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72105
+    - audit
+
+- name: "MEDIUM | V-72105 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the chmod syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72105
+    - patch
+
+- name: "MEDIUM | V-72107 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the fchmod syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72107
+    - audit
+
+- name: "MEDIUM | V-72107 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the fchmod syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72107
+    - patch
+
+- name: "MEDIUM | V-72109 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the fchmodat syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72109
+    - audit
+
+- name: "MEDIUM | V-72109 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the fchmodat syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72109
+    - patch
+
+- name: "MEDIUM | V-72111 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the setxattr syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72111
+    - audit
+
+- name: "MEDIUM | V-72111 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the setxattr syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72111
+    - patch
+
+- name: "MEDIUM | V-72113 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the fsetxattr syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72113
+    - audit
+
+- name: "MEDIUM | V-72113 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the fsetxattr syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72113
+    - patch
+
+- name: "MEDIUM | V-72115 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the lsetxattr syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72115
+    - audit
+
+- name: "MEDIUM | V-72115 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the lsetxattr syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72115
+    - patch
+
+- name: "MEDIUM | V-72117 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the removexattr syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72117
+    - audit
+
+- name: "MEDIUM | V-72117 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the removexattr syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72117
+    - patch
+
+- name: "MEDIUM | V-72119 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the fremovexattr syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72119
+    - audit
+
+- name: "MEDIUM | V-72119 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the fremovexattr syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72119
+    - patch
+
+- name: "MEDIUM | V-72121 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the lremovexattr syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72121
+    - audit
+
+- name: "MEDIUM | V-72121 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the lremovexattr syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72121
+    - patch
+
+- name: "MEDIUM | V-72123 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the creat syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72123
+    - audit
+
+- name: "MEDIUM | V-72123 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the creat syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72123
+    - patch
+
+- name: "MEDIUM | V-72125 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the open syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72125
+    - audit
+
+- name: "MEDIUM | V-72125 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the open syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72125
+    - patch
+
+- name: "MEDIUM | V-72127 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the openat syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72127
+    - audit
+
+- name: "MEDIUM | V-72127 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the openat syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72127
+    - patch
+
+- name: "MEDIUM | V-72129 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the open_by_handle_at syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72129
+    - audit
+
+- name: "MEDIUM | V-72129 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the open_by_handle_at syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72129
+    - patch
+
+- name: "MEDIUM | V-72131 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the truncate syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72131
+    - audit
+
+- name: "MEDIUM | V-72131 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the truncate syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72131
+    - patch
+
+- name: "MEDIUM | V-72133 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the ftruncate syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72133
+    - audit
+
+- name: "MEDIUM | V-72133 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the ftruncate syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72133
+    - patch
+
+- name: "MEDIUM | V-72135 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the semanage command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72135
+    - audit
+
+- name: "MEDIUM | V-72135 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the semanage command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72135
+    - patch
+
+- name: "MEDIUM | V-72137 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the setsebool command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72137
+    - audit
+
+- name: "MEDIUM | V-72137 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the setsebool command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72137
+    - patch
+
+- name: "MEDIUM | V-72139 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the chcon command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72139
+    - audit
+
+- name: "MEDIUM | V-72139 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the chcon command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72139
+    - patch
+
+- name: "MEDIUM | V-72141 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the setfiles command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72141
+    - audit
+
+- name: "MEDIUM | V-72141 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the setfiles command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72141
+    - patch
+
+- name: "MEDIUM | V-72145 | AUDIT | The Red Hat Enterprise Linux operating system must generate audit records for all unsuccessful account access events."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72145
+    - audit
+
+- name: "MEDIUM | V-72145 | PATCH | The Red Hat Enterprise Linux operating system must generate audit records for all unsuccessful account access events."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72145
+    - patch
+
+- name: "MEDIUM | V-72147 | AUDIT | The Red Hat Enterprise Linux operating system must generate audit records for all successful account access events."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72147
+    - audit
+
+- name: "MEDIUM | V-72147 | PATCH | The Red Hat Enterprise Linux operating system must generate audit records for all successful account access events."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72147
+    - patch
+
+- name: "MEDIUM | V-72149 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the passwd command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72149
+    - audit
+
+- name: "MEDIUM | V-72149 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the passwd command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72149
+    - patch
+
+- name: "MEDIUM | V-72151 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the unix_chkpwd command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72151
+    - audit
+
+- name: "MEDIUM | V-72151 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the unix_chkpwd command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72151
+    - patch
+
+- name: "MEDIUM | V-72153 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the gpasswd command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72153
+    - audit
+
+- name: "MEDIUM | V-72153 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the gpasswd command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72153
+    - patch
+
+- name: "MEDIUM | V-72155 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the chage command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72155
+    - audit
+
+- name: "MEDIUM | V-72155 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the chage command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72155
+    - patch
+
+- name: "MEDIUM | V-72157 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the userhelper command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72157
+    - audit
+
+- name: "MEDIUM | V-72157 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the userhelper command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72157
+    - patch
+
+- name: "MEDIUM | V-72159 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the su command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72159
+    - audit
+
+- name: "MEDIUM | V-72159 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the su command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72159
+    - patch
+
+- name: "MEDIUM | V-72161 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the sudo command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72161
+    - audit
+
+- name: "MEDIUM | V-72161 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the sudo command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72161
+    - patch
+
+- name: "MEDIUM | V-72163 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the sudoers file and all files in the /etc/sudoers.d/ directory."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72163
+    - audit
+
+- name: "MEDIUM | V-72163 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the sudoers file and all files in the /etc/sudoers.d/ directory."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72163
+    - patch
+
+- name: "MEDIUM | V-72165 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the newgrp command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72165
+    - audit
+
+- name: "MEDIUM | V-72165 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the newgrp command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72165
+    - patch
+
+- name: "MEDIUM | V-72167 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the chsh command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72167
+    - audit
+
+- name: "MEDIUM | V-72167 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the chsh command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72167
+    - patch
+
+- name: "MEDIUM | V-72171 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the mount command and syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72171
+    - audit
+
+- name: "MEDIUM | V-72171 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the mount command and syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72171
+    - patch
+
+- name: "MEDIUM | V-72173 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the umount command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72173
+    - audit
+
+- name: "MEDIUM | V-72173 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the umount command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72173
+    - patch
+
+- name: "MEDIUM | V-72175 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the postdrop command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72175
+    - audit
+
+- name: "MEDIUM | V-72175 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the postdrop command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72175
+    - patch
+
+- name: "MEDIUM | V-72177 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the postqueue command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72177
+    - audit
+
+- name: "MEDIUM | V-72177 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the postqueue command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72177
+    - patch
+
+- name: "MEDIUM | V-72179 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the ssh-keysign command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72179
+    - audit
+
+- name: "MEDIUM | V-72179 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the ssh-keysign command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72179
+    - patch
+
+- name: "MEDIUM | V-72183 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the crontab command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72183
+    - audit
+
+- name: "MEDIUM | V-72183 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the crontab command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72183
+    - patch
+
+- name: "MEDIUM | V-72185 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the pam_timestamp_check command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72185
+    - audit
+
+- name: "MEDIUM | V-72185 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the pam_timestamp_check command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72185
+    - patch
+
+- name: "MEDIUM | V-72187 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the init_module syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72187
+    - audit
+
+- name: "MEDIUM | V-72187 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the init_module syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72187
+    - patch
+
+- name: "MEDIUM | V-72189 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the delete_module syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72189
+    - audit
+
+- name: "MEDIUM | V-72189 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the delete_module syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72189
+    - patch
+
+- name: "MEDIUM | V-72191 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the kmod command."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72191
+    - audit
+
+- name: "MEDIUM | V-72191 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the kmod command."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72191
+    - patch
+
+- name: "MEDIUM | V-72197 | AUDIT | The Red Hat Enterprise Linux operating system must generate audit records for all account creations, modifications, disabling, and termination events that affect /etc/passwd."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72197
+    - audit
+
+- name: "MEDIUM | V-72197 | PATCH | The Red Hat Enterprise Linux operating system must generate audit records for all account creations, modifications, disabling, and termination events that affect /etc/passwd."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72197
+    - patch
+
+- name: "MEDIUM | V-72199 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the rename syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72199
+    - audit
+
+- name: "MEDIUM | V-72199 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the rename syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72199
+    - patch
+
+- name: "MEDIUM | V-72201 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the renameat syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72201
+    - audit
+
+- name: "MEDIUM | V-72201 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the renameat syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72201
+    - patch
+
+- name: "MEDIUM | V-72203 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the rmdir syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72203
+    - audit
+
+- name: "MEDIUM | V-72203 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the rmdir syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72203
+    - patch
+
+- name: "MEDIUM | V-72205 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the unlink syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72205
+    - audit
+
+- name: "MEDIUM | V-72205 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the unlink syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72205
+    - patch
+
+- name: "MEDIUM | V-72207 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the unlinkat syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72207
+    - audit
+
+- name: "MEDIUM | V-72207 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the unlinkat syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72207
+    - patch
+
+- name: "MEDIUM | V-72209 | AUDIT | The Red Hat Enterprise Linux operating system must send rsyslog output to a log aggregation server."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72209
+    - audit
+
+- name: "MEDIUM | V-72209 | PATCH | The Red Hat Enterprise Linux operating system must send rsyslog output to a log aggregation server."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72209
+    - patch
+
+- name: "MEDIUM | V-72211 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the rsyslog daemon does not accept log messages from other servers unless the server is being used for log aggregation."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72211
+    - audit
+
+- name: "MEDIUM | V-72211 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the rsyslog daemon does not accept log messages from other servers unless the server is being used for log aggregation."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72211
+    - patch
+
+- name: "MEDIUM | V-72219 | AUDIT | The Red Hat Enterprise Linux operating system must be configured to prohibit or restrict the use of functions, ports, protocols, and/or services, as defined in the Ports, Protocols, and Services Management Component Local Service Assessment (PPSM CLSA) and vulnerability assessments."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72219
+    - audit
+
+- name: "MEDIUM | V-72219 | PATCH | The Red Hat Enterprise Linux operating system must be configured to prohibit or restrict the use of functions, ports, protocols, and/or services, as defined in the Ports, Protocols, and Services Management Component Local Service Assessment (PPSM CLSA) and vulnerability assessments."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72219
+    - patch
+
+- name: "MEDIUM | V-72221 | AUDIT | The Red Hat Enterprise Linux operating system must use a FIPS 140-2 approved cryptographic algorithm for SSH communications."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72221
+    - audit
+
+- name: "MEDIUM | V-72221 | PATCH | The Red Hat Enterprise Linux operating system must use a FIPS 140-2 approved cryptographic algorithm for SSH communications."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72221
+    - patch
+
+- name: "MEDIUM | V-72223 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all network connections associated with a communication session are terminated at the end of the session or after 10 minutes of inactivity from the user at a command prompt, except to fulfill documented and validated mission requirements."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72223
+    - audit
+
+- name: "MEDIUM | V-72223 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all network connections associated with a communication session are terminated at the end of the session or after 10 minutes of inactivity from the user at a command prompt, except to fulfill documented and validated mission requirements."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72223
+    - patch
+
+- name: "MEDIUM | V-72225 | AUDIT | The Red Hat Enterprise Linux operating system must display the Standard Mandatory DoD Notice and Consent Banner immediately prior to, or as part of, remote access logon prompts."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72225
+    - audit
+
+- name: "MEDIUM | V-72225 | PATCH | The Red Hat Enterprise Linux operating system must display the Standard Mandatory DoD Notice and Consent Banner immediately prior to, or as part of, remote access logon prompts."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72225
+    - patch
+
+- name: "MEDIUM | V-72227 | AUDIT | The Red Hat Enterprise Linux operating system must implement cryptography to protect the integrity of Lightweight Directory Access Protocol (LDAP) authentication communications."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72227
+    - audit
+
+- name: "MEDIUM | V-72227 | PATCH | The Red Hat Enterprise Linux operating system must implement cryptography to protect the integrity of Lightweight Directory Access Protocol (LDAP) authentication communications."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72227
+    - patch
+
+- name: "MEDIUM | V-72229 | AUDIT | The Red Hat Enterprise Linux operating system must implement cryptography to protect the integrity of Lightweight Directory Access Protocol (LDAP) communications."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72229
+    - audit
+
+- name: "MEDIUM | V-72229 | PATCH | The Red Hat Enterprise Linux operating system must implement cryptography to protect the integrity of Lightweight Directory Access Protocol (LDAP) communications."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72229
+    - patch
+
+- name: "MEDIUM | V-72231 | AUDIT | The Red Hat Enterprise Linux operating system must implement cryptography to protect the integrity of Lightweight Directory Access Protocol (LDAP) communications."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72231
+    - audit
+
+- name: "MEDIUM | V-72231 | PATCH | The Red Hat Enterprise Linux operating system must implement cryptography to protect the integrity of Lightweight Directory Access Protocol (LDAP) communications."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72231
+    - patch
+
+- name: "MEDIUM | V-72233 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all networked systems have SSH installed."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72233
+    - audit
+
+- name: "MEDIUM | V-72233 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all networked systems have SSH installed."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72233
+    - patch
+
+- name: "MEDIUM | V-72235 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all networked systems use SSH for confidentiality and integrity of transmitted and received information as well as information during preparation for transmission."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72235
+    - audit
+
+- name: "MEDIUM | V-72235 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all networked systems use SSH for confidentiality and integrity of transmitted and received information as well as information during preparation for transmission."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72235
+    - patch
+
+- name: "MEDIUM | V-72237 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all network connections associated with SSH traffic are terminated at the end of the session or after 10 minutes of inactivity, except to fulfill documented and validated mission requirements."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72237
+    - audit
+
+- name: "MEDIUM | V-72237 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all network connections associated with SSH traffic are terminated at the end of the session or after 10 minutes of inactivity, except to fulfill documented and validated mission requirements."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72237
+    - patch
+
+- name: "MEDIUM | V-72239 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not allow authentication using RSA rhosts authentication."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72239
+    - audit
+
+- name: "MEDIUM | V-72239 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not allow authentication using RSA rhosts authentication."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72239
+    - patch
+
+- name: "MEDIUM | V-72241 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all network connections associated with SSH traffic terminate after a period of inactivity."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72241
+    - audit
+
+- name: "MEDIUM | V-72241 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all network connections associated with SSH traffic terminate after a period of inactivity."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72241
+    - patch
+
+- name: "MEDIUM | V-72243 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not allow authentication using rhosts authentication."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72243
+    - audit
+
+- name: "MEDIUM | V-72243 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not allow authentication using rhosts authentication."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72243
+    - patch
+
+- name: "MEDIUM | V-72245 | AUDIT | The Red Hat Enterprise Linux operating system must display the date and time of the last successful account logon upon an SSH logon."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72245
+    - audit
+
+- name: "MEDIUM | V-72245 | PATCH | The Red Hat Enterprise Linux operating system must display the date and time of the last successful account logon upon an SSH logon."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72245
+    - patch
+
+- name: "MEDIUM | V-72247 | AUDIT | The Red Hat Enterprise Linux operating system must not permit direct logons to the root account using remote access via SSH."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72247
+    - audit
+
+- name: "MEDIUM | V-72247 | PATCH | The Red Hat Enterprise Linux operating system must not permit direct logons to the root account using remote access via SSH."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72247
+    - patch
+
+- name: "MEDIUM | V-72249 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not allow authentication using known hosts authentication."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72249
+    - audit
+
+- name: "MEDIUM | V-72249 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not allow authentication using known hosts authentication."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72249
+    - patch
+
+- name: "MEDIUM | V-72253 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon is configured to only use Message Authentication Codes (MACs) employing FIPS 140-2 approved cryptographic hash algorithms."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72253
+    - audit
+
+- name: "MEDIUM | V-72253 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon is configured to only use Message Authentication Codes (MACs) employing FIPS 140-2 approved cryptographic hash algorithms."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72253
+    - patch
+
+- name: "MEDIUM | V-72255 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the SSH public host key files have mode 0644 or less permissive."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72255
+    - audit
+
+- name: "MEDIUM | V-72255 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the SSH public host key files have mode 0644 or less permissive."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72255
+    - patch
+
+- name: "MEDIUM | V-72257 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the SSH private host key files have mode 0640 or less permissive."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72257
+    - audit
+
+- name: "MEDIUM | V-72257 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the SSH private host key files have mode 0640 or less permissive."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72257
+    - patch
+
+- name: "MEDIUM | V-72259 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not permit Generic Security Service Application Program Interface (GSSAPI) authentication unless needed."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72259
+    - audit
+
+- name: "MEDIUM | V-72259 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not permit Generic Security Service Application Program Interface (GSSAPI) authentication unless needed."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72259
+    - patch
+
+- name: "MEDIUM | V-72261 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not permit Kerberos authentication unless needed."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72261
+    - audit
+
+- name: "MEDIUM | V-72261 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not permit Kerberos authentication unless needed."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72261
+    - patch
+
+- name: "MEDIUM | V-72263 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon performs strict mode checking of home directory configuration files."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72263
+    - audit
+
+- name: "MEDIUM | V-72263 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon performs strict mode checking of home directory configuration files."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72263
+    - patch
+
+- name: "MEDIUM | V-72265 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon uses privilege separation."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72265
+    - audit
+
+- name: "MEDIUM | V-72265 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon uses privilege separation."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72265
+    - patch
+
+- name: "MEDIUM | V-72267 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not allow compression or only allows compression after successful authentication."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72267
+    - audit
+
+- name: "MEDIUM | V-72267 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the SSH daemon does not allow compression or only allows compression after successful authentication."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72267
+    - patch
+
+- name: "MEDIUM | V-72269 | AUDIT | The Red Hat Enterprise Linux operating system must, for networked systems, synchronize clocks with a server that is synchronized to one of the redundant United States Naval Observatory (USNO) time servers, a time server designated for the appropriate DoD network (NIPRNet/SIPRNet), and/or the Global Positioning System (GPS)."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72269
+    - audit
+
+- name: "MEDIUM | V-72269 | PATCH | The Red Hat Enterprise Linux operating system must, for networked systems, synchronize clocks with a server that is synchronized to one of the redundant United States Naval Observatory (USNO) time servers, a time server designated for the appropriate DoD network (NIPRNet/SIPRNet), and/or the Global Positioning System (GPS)."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72269
+    - patch
+
+- name: "MEDIUM | V-72273 | AUDIT | The Red Hat Enterprise Linux operating system must enable an application firewall, if available."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72273
+    - audit
+
+- name: "MEDIUM | V-72273 | PATCH | The Red Hat Enterprise Linux operating system must enable an application firewall, if available."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72273
+    - patch
+
+- name: "MEDIUM | V-72283 | AUDIT | The Red Hat Enterprise Linux operating system must not forward Internet Protocol version 4 (IPv4) source-routed packets."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72283
+    - audit
+
+- name: "MEDIUM | V-72283 | PATCH | The Red Hat Enterprise Linux operating system must not forward Internet Protocol version 4 (IPv4) source-routed packets."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72283
+    - patch
+
+- name: "MEDIUM | V-72285 | AUDIT | The Red Hat Enterprise Linux operating system must not forward Internet Protocol version 4 (IPv4) source-routed packets by default."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72285
+    - audit
+
+- name: "MEDIUM | V-72285 | PATCH | The Red Hat Enterprise Linux operating system must not forward Internet Protocol version 4 (IPv4) source-routed packets by default."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72285
+    - patch
+
+- name: "MEDIUM | V-72287 | AUDIT | The Red Hat Enterprise Linux operating system must not respond to Internet Protocol version 4 (IPv4) Internet Control Message Protocol (ICMP) echoes sent to a broadcast address."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72287
+    - audit
+
+- name: "MEDIUM | V-72287 | PATCH | The Red Hat Enterprise Linux operating system must not respond to Internet Protocol version 4 (IPv4) Internet Control Message Protocol (ICMP) echoes sent to a broadcast address."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72287
+    - patch
+
+- name: "MEDIUM | V-72289 | AUDIT | The Red Hat Enterprise Linux operating system must prevent Internet Protocol version 4 (IPv4) Internet Control Message Protocol (ICMP) redirect messages from being accepted."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72289
+    - audit
+
+- name: "MEDIUM | V-72289 | PATCH | The Red Hat Enterprise Linux operating system must prevent Internet Protocol version 4 (IPv4) Internet Control Message Protocol (ICMP) redirect messages from being accepted."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72289
+    - patch
+
+- name: "MEDIUM | V-72291 | AUDIT | The Red Hat Enterprise Linux operating system must not allow interfaces to perform Internet Protocol version 4 (IPv4) Internet Control Message Protocol (ICMP) redirects by default."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72291
+    - audit
+
+- name: "MEDIUM | V-72291 | PATCH | The Red Hat Enterprise Linux operating system must not allow interfaces to perform Internet Protocol version 4 (IPv4) Internet Control Message Protocol (ICMP) redirects by default."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72291
+    - patch
+
+- name: "MEDIUM | V-72293 | AUDIT | The Red Hat Enterprise Linux operating system must not send Internet Protocol version 4 (IPv4) Internet Control Message Protocol (ICMP) redirects."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72293
+    - audit
+
+- name: "MEDIUM | V-72293 | PATCH | The Red Hat Enterprise Linux operating system must not send Internet Protocol version 4 (IPv4) Internet Control Message Protocol (ICMP) redirects."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72293
+    - patch
+
+- name: "MEDIUM | V-72295 | AUDIT | Network interfaces configured on the Red Hat Enterprise Linux operating system must not be in promiscuous mode."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72295
+    - audit
+
+- name: "MEDIUM | V-72295 | PATCH | Network interfaces configured on the Red Hat Enterprise Linux operating system must not be in promiscuous mode."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72295
+    - patch
+
+- name: "MEDIUM | V-72297 | AUDIT | The Red Hat Enterprise Linux operating system must be configured to prevent unrestricted mail relaying."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72297
+    - audit
+
+- name: "MEDIUM | V-72297 | PATCH | The Red Hat Enterprise Linux operating system must be configured to prevent unrestricted mail relaying."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72297
+    - patch
+
+- name: "MEDIUM | V-72305 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that if the Trivial File Transfer Protocol (TFTP) server is required, the TFTP daemon is configured to operate in secure mode."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72305
+    - audit
+
+- name: "MEDIUM | V-72305 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that if the Trivial File Transfer Protocol (TFTP) server is required, the TFTP daemon is configured to operate in secure mode."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72305
+    - patch
+
+- name: "MEDIUM | V-72307 | AUDIT | The Red Hat Enterprise Linux operating system must not have an X Windows display manager installed unless approved."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72307
+    - audit
+
+- name: "MEDIUM | V-72307 | PATCH | The Red Hat Enterprise Linux operating system must not have an X Windows display manager installed unless approved."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72307
+    - patch
+
+- name: "MEDIUM | V-72309 | AUDIT | The Red Hat Enterprise Linux operating system must not be performing packet forwarding unless the system is a router."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72309
+    - audit
+
+- name: "MEDIUM | V-72309 | PATCH | The Red Hat Enterprise Linux operating system must not be performing packet forwarding unless the system is a router."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72309
+    - patch
+
+- name: "MEDIUM | V-72311 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the Network File System (NFS) is configured to use RPCSEC_GSS."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72311
+    - audit
+
+- name: "MEDIUM | V-72311 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the Network File System (NFS) is configured to use RPCSEC_GSS."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72311
+    - patch
+
+- name: "MEDIUM | V-72315 | AUDIT | The Red Hat Enterprise Linux operating system access control program must be configured to grant or deny system access to specific hosts and services."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72315
+    - audit
+
+- name: "MEDIUM | V-72315 | PATCH | The Red Hat Enterprise Linux operating system access control program must be configured to grant or deny system access to specific hosts and services."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72315
+    - patch
+
+- name: "MEDIUM | V-72317 | AUDIT | The Red Hat Enterprise Linux operating system must not have unauthorized IP tunnels configured."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72317
+    - audit
+
+- name: "MEDIUM | V-72317 | PATCH | The Red Hat Enterprise Linux operating system must not have unauthorized IP tunnels configured."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72317
+    - patch
+
+- name: "MEDIUM | V-72319 | AUDIT | The Red Hat Enterprise Linux operating system must not forward IPv6 source-routed packets."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72319
+    - audit
+
+- name: "MEDIUM | V-72319 | PATCH | The Red Hat Enterprise Linux operating system must not forward IPv6 source-routed packets."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72319
+    - patch
+
+- name: "MEDIUM | V-72417 | AUDIT | The Red Hat Enterprise Linux operating system must have the required packages for multifactor authentication installed."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72417
+    - audit
+
+- name: "MEDIUM | V-72417 | PATCH | The Red Hat Enterprise Linux operating system must have the required packages for multifactor authentication installed."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72417
+    - patch
+
+- name: "MEDIUM | V-72427 | AUDIT | The Red Hat Enterprise Linux operating system must implement multifactor authentication for access to privileged accounts via pluggable authentication modules (PAM)."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72427
+    - audit
+
+- name: "MEDIUM | V-72427 | PATCH | The Red Hat Enterprise Linux operating system must implement multifactor authentication for access to privileged accounts via pluggable authentication modules (PAM)."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72427
+    - patch
+
+- name: "MEDIUM | V-72433 | AUDIT | The Red Hat Enterprise Linux operating system must implement certificate status checking for PKI authentication."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-72433
+    - audit
+
+- name: "MEDIUM | V-72433 | PATCH | The Red Hat Enterprise Linux operating system must implement certificate status checking for PKI authentication."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-72433
+    - patch
+
+- name: "MEDIUM | V-73155 | AUDIT | The Red Hat Enterprise Linux operating system must prevent a user from overriding the screensaver lock-delay setting for the graphical user interface."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-73155
+    - audit
+
+- name: "MEDIUM | V-73155 | PATCH | The Red Hat Enterprise Linux operating system must prevent a user from overriding the screensaver lock-delay setting for the graphical user interface."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-73155
+    - patch
+
+- name: "MEDIUM | V-73157 | AUDIT | The Red Hat Enterprise Linux operating system must prevent a user from overriding the session idle-delay setting for the graphical user interface."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-73157
+    - audit
+
+- name: "MEDIUM | V-73157 | PATCH | The Red Hat Enterprise Linux operating system must prevent a user from overriding the session idle-delay setting for the graphical user interface."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-73157
+    - patch
+
+- name: "MEDIUM | V-73159 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed or new passwords are established, pwquality must be used."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-73159
+    - audit
+
+- name: "MEDIUM | V-73159 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that when passwords are changed or new passwords are established, pwquality must be used."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-73159
+    - patch
+
+- name: "MEDIUM | V-73161 | AUDIT | The Red Hat Enterprise Linux operating system must prevent binary files from being executed on file systems that are being imported via Network File System (NFS)."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-73161
+    - audit
+
+- name: "MEDIUM | V-73161 | PATCH | The Red Hat Enterprise Linux operating system must prevent binary files from being executed on file systems that are being imported via Network File System (NFS)."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-73161
+    - patch
+
+- name: "MEDIUM | V-73163 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the audit system takes appropriate action when there is an error sending audit records to a remote system."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-73163
+    - audit
+
+- name: "MEDIUM | V-73163 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the audit system takes appropriate action when there is an error sending audit records to a remote system."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-73163
+    - patch
+
+- name: "MEDIUM | V-73165 | AUDIT | The Red Hat Enterprise Linux operating system must generate audit records for all account creations, modifications, disabling, and termination events that affect /etc/group."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-73165
+    - audit
+
+- name: "MEDIUM | V-73165 | PATCH | The Red Hat Enterprise Linux operating system must generate audit records for all account creations, modifications, disabling, and termination events that affect /etc/group."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-73165
+    - patch
+
+- name: "MEDIUM | V-73167 | AUDIT | The Red Hat Enterprise Linux operating system must generate audit records for all account creations, modifications, disabling, and termination events that affect /etc/gshadow."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-73167
+    - audit
+
+- name: "MEDIUM | V-73167 | PATCH | The Red Hat Enterprise Linux operating system must generate audit records for all account creations, modifications, disabling, and termination events that affect /etc/gshadow."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-73167
+    - patch
+
+- name: "MEDIUM | V-73171 | AUDIT | The Red Hat Enterprise Linux operating system must generate audit records for all account creations, modifications, disabling, and termination events that affect /etc/shadow."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-73171
+    - audit
+
+- name: "MEDIUM | V-73171 | PATCH | The Red Hat Enterprise Linux operating system must generate audit records for all account creations, modifications, disabling, and termination events that affect /etc/shadow."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-73171
+    - patch
+
+- name: "MEDIUM | V-73173 | AUDIT | The Red Hat Enterprise Linux operating system must generate audit records for all account creations, modifications, disabling, and termination events that affect /etc/opasswd."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-73173
+    - audit
+
+- name: "MEDIUM | V-73173 | PATCH | The Red Hat Enterprise Linux operating system must generate audit records for all account creations, modifications, disabling, and termination events that affect /etc/opasswd."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-73173
+    - patch
+
+- name: "MEDIUM | V-73175 | AUDIT | The Red Hat Enterprise Linux operating system must ignore Internet Protocol version 4 (IPv4) Internet Control Message Protocol (ICMP) redirect messages."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-73175
+    - audit
+
+- name: "MEDIUM | V-73175 | PATCH | The Red Hat Enterprise Linux operating system must ignore Internet Protocol version 4 (IPv4) Internet Control Message Protocol (ICMP) redirect messages."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-73175
+    - patch
+
+- name: "MEDIUM | V-73177 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that all wireless network adapters are disabled."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-73177
+    - audit
+
+- name: "MEDIUM | V-73177 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that all wireless network adapters are disabled."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-73177
+    - patch
+
+- name: "MEDIUM | V-77819 | AUDIT | The Red Hat Enterprise Linux operating system must uniquely identify and must authenticate users using multifactor authentication via a graphical user logon."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-77819
+    - audit
+
+- name: "MEDIUM | V-77819 | PATCH | The Red Hat Enterprise Linux operating system must uniquely identify and must authenticate users using multifactor authentication via a graphical user logon."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-77819
+    - patch
+
+- name: "MEDIUM | V-77821 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that the Datagram Congestion Control Protocol (DCCP) kernel module is disabled unless required."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-77821
+    - audit
+
+- name: "MEDIUM | V-77821 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that the Datagram Congestion Control Protocol (DCCP) kernel module is disabled unless required."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-77821
+    - patch
+
+- name: "MEDIUM | V-77823 | AUDIT | The Red Hat Enterprise Linux operating system must require authentication upon booting into single-user and maintenance modes."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-77823
+    - audit
+
+- name: "MEDIUM | V-77823 | PATCH | The Red Hat Enterprise Linux operating system must require authentication upon booting into single-user and maintenance modes."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-77823
+    - patch
+
+- name: "MEDIUM | V-77825 | AUDIT | The Red Hat Enterprise Linux operating system must implement virtual address space randomization."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-77825
+    - audit
+
+- name: "MEDIUM | V-77825 | PATCH | The Red Hat Enterprise Linux operating system must implement virtual address space randomization."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-77825
+    - patch
+
+- name: "MEDIUM | V-78995 | AUDIT | The Red Hat Enterprise Linux operating system must prevent a user from overriding the screensaver lock-enabled setting for the graphical user interface."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-78995
+    - audit
+
+- name: "MEDIUM | V-78995 | PATCH | The Red Hat Enterprise Linux operating system must prevent a user from overriding the screensaver lock-enabled setting for the graphical user interface."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-78995
+    - patch
+
+- name: "MEDIUM | V-78997 | AUDIT | The Red Hat Enterprise Linux operating system must prevent a user from overriding the screensaver idle-activation-enabled setting for the graphical user interface."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-78997
+    - audit
+
+- name: "MEDIUM | V-78997 | PATCH | The Red Hat Enterprise Linux operating system must prevent a user from overriding the screensaver idle-activation-enabled setting for the graphical user interface."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-78997
+    - patch
+
+- name: "MEDIUM | V-78999 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the create_module syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-78999
+    - audit
+
+- name: "MEDIUM | V-78999 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the create_module syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-78999
+    - patch
+
+- name: "MEDIUM | V-79001 | AUDIT | The Red Hat Enterprise Linux operating system must audit all uses of the finit_module syscall."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-79001
+    - audit
+
+- name: "MEDIUM | V-79001 | PATCH | The Red Hat Enterprise Linux operating system must audit all uses of the finit_module syscall."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-79001
+    - patch
+
+- name: "MEDIUM | V-81003 | AUDIT | The Red Hat Enterprise Linux operating system must be configured so that /etc/pam.d/passwd implements /etc/pam.d/system-auth when changing passwords."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-81003
+    - audit
+
+- name: "MEDIUM | V-81003 | PATCH | The Red Hat Enterprise Linux operating system must be configured so that /etc/pam.d/passwd implements /etc/pam.d/system-auth when changing passwords."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-81003
+    - patch
+
+- name: "MEDIUM | V-81015 | AUDIT | The Red Hat Enterprise Linux operating system must be configured to use the au-remote plugin."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-81015
+    - audit
+
+- name: "MEDIUM | V-81015 | PATCH | The Red Hat Enterprise Linux operating system must be configured to use the au-remote plugin."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-81015
+    - patch
+
+- name: "MEDIUM | V-81017 | AUDIT | The Red Hat Enterprise Linux operating system must configure the au-remote plugin to off-load audit logs using the audisp-remote daemon."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-81017
+    - audit
+
+- name: "MEDIUM | V-81017 | PATCH | The Red Hat Enterprise Linux operating system must configure the au-remote plugin to off-load audit logs using the audisp-remote daemon."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-81017
+    - patch
+
+- name: "MEDIUM | V-81019 | AUDIT | The Red Hat Enterprise Linux operating system must take appropriate action when the audisp-remote buffer is full."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-81019
+    - audit
+
+- name: "MEDIUM | V-81019 | PATCH | The Red Hat Enterprise Linux operating system must take appropriate action when the audisp-remote buffer is full."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-81019
+    - patch
+
+- name: "MEDIUM | V-81021 | AUDIT | The Red Hat Enterprise Linux operating system must label all off-loaded audit logs before sending them to the central log server."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-81021
+    - audit
+
+- name: "MEDIUM | V-81021 | PATCH | The Red Hat Enterprise Linux operating system must label all off-loaded audit logs before sending them to the central log server."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-81021
+    - patch
+
+- name: "MEDIUM | V-92251 | AUDIT | The Red Hat Enterprise Linux operating system must use a reverse-path filter for IPv4 network traffic when possible on all interfaces."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-92251
+    - audit
+
+- name: "MEDIUM | V-92251 | PATCH | The Red Hat Enterprise Linux operating system must use a reverse-path filter for IPv4 network traffic when possible on all interfaces."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-92251
+    - patch
+
+- name: "MEDIUM | V-92253 | AUDIT | The Red Hat Enterprise Linux operating system must use a reverse-path filter for IPv4 network traffic when possible by default."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-92253
+    - audit
+
+- name: "MEDIUM | V-92253 | PATCH | The Red Hat Enterprise Linux operating system must use a reverse-path filter for IPv4 network traffic when possible by default."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-92253
+    - patch
+
+- name: "MEDIUM | V-92255 | AUDIT | The Red Hat Enterprise Linux operating system must have a host-based intrusion detection tool installed."
+  command: true
+  register: result
+  always_run: yes
+  changed_when: no
+  ignore_errors: yes
+  tags:
+    - cat2
+    - medium
+    - V-92255
+    - audit
+
+- name: "MEDIUM | V-92255 | PATCH | The Red Hat Enterprise Linux operating system must have a host-based intrusion detection tool installed."
+  command: true
+  tags:
+    - cat2
+    - medium
+    - V-92255
+    - patch
+
